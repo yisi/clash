@@ -1,0 +1,482 @@
+# HTTP 端口
+port: 7890
+# SOCKS5 端口
+socks-port: 7891
+# Linux 及 macOS 的 redir 端口
+redir-port: 7892
+allow-lan: true
+# Rule / Global/ Direct (默认为 Rule 模式)
+mode: Rule
+log-level: info
+# RESTful API for clash
+external-controller: 0.0.0.0:9090
+experimental:
+  ignore-resolve-fail: true # ignore dns resolve fail, default value is true
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  nameserver:
+    - 114.114.114.114 # default value
+    - 8.8.8.8 # default value
+    - tls://dns.rubyfish.cn:853 # DNS over TLS
+    - https://1.1.1.1/dns-query # DNS over HTTPS
+  fallback:
+    - tls://13800000000.rubyfish.cn:853
+    - tls://1.0.0.1:853
+    - tls://dns.google:853
+
+
+# 代理节点，我自己挑选的节点My list
+proxies:
+  - {
+    name: timevpn-Kiev, 
+    server: ua.timevpn.com, 
+    port: 45647, 
+    type: ss, 
+    cipher: AES-256-CFB, 
+    password: yWsPcWx
+    }
+  - {
+    name: timevpn-Moscow, 
+    server: ru.timevpn.com, 
+    port: 57888, 
+    type: ss, 
+    cipher: AES-256-CFB, 
+    password: fgRYwef
+    }
+  - {
+    name: timevpn-Chicago, 
+    server: us.timevpn.com, 
+    port: 39593, 
+    type: ss, 
+    cipher: AES-256-CFB, 
+    password: zqpHhNT
+    }
+  - {
+    name: timevpn-Amsterdam, 
+    server: nl.timevpn.com, 
+    port: 53035, 
+    type: ss, 
+    cipher: AES-256-CFB, 
+    password: hGy6ZNZ
+    }
+  - {
+    name: timevpn-Ru-vmess, 
+    server: 37.252.1.197, 
+    port: 3000, 
+    type: vmess, 
+    uuid: 49671268-1e72-45dd-b17e-06272197b5f5, 
+    alterId: 4, 
+    cipher: auto, 
+    tls: false, 
+    skip-cert-verify: true, 
+    udp: true
+    }
+
+  - {name: CYL-科技（2021.11.30）, server: 1030tw.fans8.xyz, port: 80, type: vmess, uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 1030tw.fans8.xyz}}
+  - {name: CYL-科技（2021.11.30） 2, server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
+  - {name: CYL-科技（2021.11.30） 3, server: azure-hk.qcppl.com, port: 10008, type: trojan, password: 391869cf-f21d-4b24-a6e6-862cac94bb15, sni: azure-hk.qcppl.com}
+  - {name: CYL-科技（2021.11.30） 4, server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
+  - {name: CYL-科技（2021.11.30） 5, server: gg.piyun.team, port: 45005, type: trojan, password: 391869cf-f21d-4b24-a6e6-862cac94bb15, sni: gg.piyun.team}
+  - {name: CYL-科技（2021.11.30） 6, server: azure-hk.qcppl.com, port: 10012, type: trojan, password: 391869cf-f21d-4b24-a6e6-862cac94bb15, sni: azure-hk.qcppl.com}
+  - {name: CYL-科技（2021.11.30） 7, server: 8.214.46.152, port: 50885, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8.214.46.152}}
+  - {name: CYL-科技（2021.11.30） 8, server: 81.90.188.137, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CYL-科技（2021.11.30） 9, server: 81.90.188.137, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CYL-科技（2021.11.30） 10, server: 81.90.188.137, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CYL-科技（2021.11.30） 11, server: 45.141.152.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FTvsfXCvXLPFEMKNSADr}
+  - {name: CYL-科技（2021.11.30） 12, server: 81.90.188.137, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CYL-科技（2021.11.30） 13, server: 81.90.188.137, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CYL-科技（2021.11.30） 14, server: 172.105.244.165, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: CYL-科技（2021.11.30） 15, server: 172.105.244.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.11.30） 16, server: 172.105.244.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: CYL-科技（2021.11.30） 17, server: 81.90.188.137, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CYL-科技（2021.11.30） 18, server: 172.105.244.165, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: CYL-科技（2021.11.30） 19, server: 172.105.244.165, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: CYL-科技（2021.11.30） 20, server: 172.105.244.165, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CwlJId}
+  - {name: CYL-科技（2021.11.30） 21, server: 81.90.189.57, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CYL-科技（2021.11.30） 22, server: zj.haojiahuo.club, port: 30057, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
+  - {name: CYL-科技（2021.11.30） 23, server: 81.90.189.57, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CYL-科技（2021.11.30） 24, server: 81.90.188.137, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: CYL-科技（2021.11.30） 25, server: 172.105.244.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+
+
+
+
+# 代理策略组
+# select 用来允许用户手动选择 代理服务器 或 服务器组
+# url-test 可以自动选择与指定 URL 测速后，延迟最短的服务器
+# fallback 可以尽量按照用户书写的服务器顺序，在确保服务器可用的情况下，自动选择服务器。按顺序一个个使用
+# load-balance 可以使相同 eTLD 请求在同一条代理线路上
+proxy-groups:
+  - name: PROXY
+    type: select
+    proxies:
+      - DIRECT
+      - All-select-load-balance
+      - All-select-fallback
+      - All-auto-fallback
+      # - All-auto
+      - 1-MyList
+      - 1-MyList-auto
+      - 2-Bulink
+      - 2-Bulink-auto
+      - 3-Kingfu
+      - 3-Kingfu-auto
+      - 4-Free886
+      - 4-Free886-auto
+      - 5-UFOvpn
+      - 5-UFOvpn-auto
+
+
+  # - name: All-auto
+  #   type: url-test
+  #   proxies:
+  #     - MyList-auto
+  #     - Bulink-auto
+  #     - Kingfu-auto
+  #     - Free886-auto
+  #     - UFOvpn-auto
+  #   url: "http://www.gstatic.com/generate_204"
+  #   interval: 300
+
+  - name: All-select-load-balance
+    type: load-balance
+    proxies:
+      - 3-Kingfu
+      - 5-UFOvpn
+      - 4-Free886
+      - 2-Bulink
+      - 1-MyList
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: All-select-fallback
+    type: fallback
+    proxies:
+      - 3-Kingfu
+      - 5-UFOvpn
+      - 4-Free886
+      - 2-Bulink
+      - 1-MyList
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+
+  - name: All-auto-fallback
+    type: fallback
+    proxies:
+     - 3-Kingfu-auto
+     - 5-UFOvpn-auto
+     - 4-Free886-auto
+     - 2-Bulink-auto
+     - 1-MyList-auto
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+
+
+  - name: 1-MyList
+    type: select
+    proxies:
+      - timevpn-Kiev
+      - timevpn-Moscow
+      - timevpn-Chicago
+      - timevpn-Amsterdam
+      - timevpn-Ru-vmess
+      - CYL-科技（2021.11.30）
+      - CYL-科技（2021.11.30） 2
+      - CYL-科技（2021.11.30） 3
+      - CYL-科技（2021.11.30） 4
+      - CYL-科技（2021.11.30） 5
+      - CYL-科技（2021.11.30） 6
+      - CYL-科技（2021.11.30） 7
+      - CYL-科技（2021.11.30） 8
+      - CYL-科技（2021.11.30） 9
+      - CYL-科技（2021.11.30） 10
+      - CYL-科技（2021.11.30） 11
+      - CYL-科技（2021.11.30） 12
+      - CYL-科技（2021.11.30） 13
+      - CYL-科技（2021.11.30） 14
+      - CYL-科技（2021.11.30） 15
+      - CYL-科技（2021.11.30） 16
+      - CYL-科技（2021.11.30） 17
+      - CYL-科技（2021.11.30） 18
+      - CYL-科技（2021.11.30） 19
+      - CYL-科技（2021.11.30） 20
+      - CYL-科技（2021.11.30） 21
+      - CYL-科技（2021.11.30） 22
+      - CYL-科技（2021.11.30） 23
+      - CYL-科技（2021.11.30） 24
+      - CYL-科技（2021.11.30） 25
+
+  - name: 1-MyList-auto
+    type: url-test
+    proxies:
+      - 1-MyList
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+
+  - name: 2-Bulink
+    type: select
+    use:
+      - bulink.me
+  - name: 2-Bulink-auto
+    type: url-test
+    use:
+      - bulink.me
+    # proxies:
+    #   - DIRECT
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: 3-Kingfu
+    type: select
+    use:
+      - free.kingfu.cf
+  - name: 3-Kingfu-auto
+    type: url-test
+    use:
+      - free.kingfu.cf
+    # proxies:
+    #   - DIRECT
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: 4-Free886
+    type: select
+    use:
+      - free886.herokuapp.com
+  - name: 4-Free886-auto
+    type: url-test
+    use:
+      - free886.herokuapp.com
+    # proxies:
+    #   - DIRECT
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: 5-UFOvpn
+    type: select
+    use:
+      - ufo-vpn
+  - name: 5-UFOvpn-auto
+    type: url-test
+    use:
+      - ufo-vpn
+    # proxies:
+    #   - DIRECT
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+
+  - name: 🎥 NETFLIX
+    type: select
+    proxies:
+      - 1-MyList
+      - 5-UFOvpn
+      - 2-Bulink
+      - 3-Kingfu
+      - 4-Free886
+
+
+
+# https://proxy-provider-converter-nu.vercel.app/
+# 这里可以把网上的订阅转为proxies
+# https://github.com/yisi/proxy-provider-converter
+# 原始链接
+# bulink github.com/freefq    https://bulink.me/sub/mcgev/cl
+# kingfu free.kingfu.cf https://free.kingfu.cf/clash/proxies?c=HK,TW,JP,US,SG
+# https://free886.herokuapp.com/   https://free886.herokuapp.com/clash/proxies?c=HK,TW,JP,US,SG
+# ufo-vpn tel上搞的 https://raw.githubusercontent.com/clashconfig/MFA_VPN/main/MFA_Clash.yml
+
+proxy-providers:
+  bulink.me:
+    type: http
+    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Fbulink.me%2Fsub%2Fmcgev%2Fcl&target=clash
+    interval: 3600
+    path: ./bulink.me.yaml
+    health-check:
+      enable: true
+      interval: 600
+      # lazy: true
+      url: http://www.gstatic.com/generate_204
+  free.kingfu.cf:
+    type: http
+    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Ffree.kingfu.cf%2Fclash%2Fproxies%3Fc%3DHK%2CTW%2CJP%2CUS%2CSG&target=clash
+    interval: 3600
+    path: ./free.kingfu.cf.yaml
+    health-check:
+      enable: true
+      interval: 600
+      # lazy: true
+      url: http://www.gstatic.com/generate_204
+  free886.herokuapp.com:
+    type: http
+    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Ffree886.herokuapp.com%2Fclash%2Fproxies%3Fc%3DHK%2CTW%2CJP%2CUS%2CSG&target=clash
+    interval: 3600
+    path: ./free886.herokuapp.com.yaml
+    health-check:
+      enable: true
+      interval: 600
+      # lazy: true
+      url: http://www.gstatic.com/generate_204
+  ufo-vpn:
+    type: http
+    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Fraw.githubusercontent.com%2Fclashconfig%2FMFA_VPN%2Fmain%2FMFA_Clash.yml&target=clash
+    interval: 3600
+    path: ./raw.githubusercontent.com.yaml
+    health-check:
+      enable: true
+      interval: 600
+      # lazy: true
+      url: http://www.gstatic.com/generate_204
+
+
+
+
+
+
+# https://github.com/Loyalsoldier/clash-rules
+rule-providers:
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./ruleset/reject.yaml
+    interval: 86400
+
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./ruleset/icloud.yaml
+    interval: 86400
+
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./ruleset/apple.yaml
+    interval: 86400
+
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./ruleset/google.yaml
+    interval: 86400
+
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./ruleset/proxy.yaml
+    interval: 86400
+
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./ruleset/direct.yaml
+    interval: 86400
+
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./ruleset/private.yaml
+    interval: 86400
+
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./ruleset/gfw.yaml
+    interval: 86400
+
+  greatfire:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt"
+    path: ./ruleset/greatfire.yaml
+    interval: 86400
+
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./ruleset/tld-not-cn.yaml
+    interval: 86400
+
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./ruleset/telegramcidr.yaml
+    interval: 86400
+
+  cncidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/cncidr.txt"
+    path: ./ruleset/cncidr.yaml
+    interval: 86400
+
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./ruleset/lancidr.yaml
+    interval: 86400
+
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./ruleset/applications.yaml
+    interval: 86400
+
+# 白名单模式  没有命中规则的网络流量，统统使用代理
+# https://github.com/Loyalsoldier/clash-rules
+rules:
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - RULE-SET,direct,DIRECT
+  - RULE-SET,proxy,PROXY
+  # - RULE-SET,proxy,PROXY
+  - RULE-SET,reject,REJECT
+  - RULE-SET,private,DIRECT
+  - RULE-SET,apple,DIRECT
+  - RULE-SET,icloud,DIRECT
+  - RULE-SET,google,PROXY
+  # - RULE-SET,gfw,PROXY
+  # - RULE-SET,greatfire,PROXY
+  # - RULE-SET,tld-not-cn,PROXY
+  - RULE-SET,telegramcidr,PROXY
+  - RULE-SET,lancidr,DIRECT
+  - RULE-SET,cncidr,DIRECT
+  - RULE-SET,applications,DIRECT
+  # 🎥 NETFLIX特供
+  - DOMAIN-SUFFIX,netflix.com,🎥 NETFLIX
+  - DOMAIN-SUFFIX,netflix.net,🎥 NETFLIX
+  - DOMAIN-SUFFIX,nflxext.com,🎥 NETFLIX
+  - DOMAIN-SUFFIX,nflximg.com,🎥 NETFLIX
+  - DOMAIN-SUFFIX,nflximg.net,🎥 NETFLIX
+  - DOMAIN-SUFFIX,nflxso.net,🎥 NETFLIX
+  - DOMAIN-SUFFIX,nflxvideo.net,🎥 NETFLIX
+  - DOMAIN-SUFFIX,netflixdnstest0.com,🎥 NETFLIX
+  - DOMAIN-SUFFIX,netflixdnstest1.com,🎥 NETFLIX
+  - DOMAIN-SUFFIX,netflixdnstest2.com,🎥 NETFLIX
+  - DOMAIN-SUFFIX,netflixdnstest3.com,🎥 NETFLIX
+  - DOMAIN-SUFFIX,netflixdnstest4.com,🎥 NETFLIX
+  - DOMAIN-SUFFIX,netflixdnstest5.com,🎥 NETFLIX
+  - DOMAIN-SUFFIX,netflixdnstest6.com,🎥 NETFLIX
+  - DOMAIN-SUFFIX,netflixdnstest7.com,🎥 NETFLIX
+  - DOMAIN-SUFFIX,netflixdnstest8.com,🎥 NETFLIX
+  - DOMAIN-SUFFIX,netflixdnstest9.com,🎥 NETFLIX
+  - DOMAIN-KEYWORD,dualstack.apiproxy-,🎥 NETFLIX
+  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,🎥 NETFLIX
+  # 🎥 NETFLIX特供
+  - GEOIP,,DIRECT
+  - GEOIP,CN,DIRECT
+  - MATCH,PROXY
