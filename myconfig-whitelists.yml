@@ -208,8 +208,6 @@ proxy-groups:
       - sspool.herokuapp.com
 
 
-
-
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -239,7 +237,7 @@ proxy-groups:
 proxy-providers:
   Oslook:
     type: http
-    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Foslook%2Fclash-freenode%40main%2Fclash.yaml&target=clash
+    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Fraw.githubusercontent.com%2Foslook%2Fclash-freenode%2Fmain%2Fclash.yaml&target=clash
     interval: 3600
     path: ./raw.githubusercontent.com.yaml
     health-check:
