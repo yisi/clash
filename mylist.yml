@@ -245,7 +245,6 @@ proxy-groups:
     type: select
     proxies:
       - timevpn-Kiev
-      - timevpn-Moscow
       - timevpn-Chicago
       - timevpn-Amsterdam
       - timevpn-Ru-vmess
