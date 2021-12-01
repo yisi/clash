@@ -292,7 +292,6 @@ proxy-groups:
       # - 4-Free886-auto
       - 5-UFOvpn
       # - 5-UFOvpn-auto
-      - 6-Wevpn
 
 
   # - name: All-auto
