@@ -14,14 +14,6 @@ proxies:
     password: yWsPcWx
     }
   - {
-    name: timevpn-Moscow, 
-    server: ru.timevpn.com, 
-    port: 57888, 
-    type: ss, 
-    cipher: AES-256-CFB, 
-    password: fgRYwef
-    }
-  - {
     name: timevpn-Chicago, 
     server: us.timevpn.com, 
     port: 39593, 
