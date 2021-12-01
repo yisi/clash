@@ -258,7 +258,17 @@ proxies:
   - {name: 🇩🇪 DE_07 @WangCai_1, server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: 🇩🇪 DE_08 @WangCai_1, server: 146.0.36.23, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 🇩🇪 DE_05 @WangCai_1, server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14638, server: 104.25.102.154, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14639, server: 104.24.45.194, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14640, server: 104.27.76.9, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14642, server: 104.21.239.147, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14643, server: 104.25.246.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14644, server: 104.16.167.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14645, server: 104.21.201.210, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14652, server: 104.25.233.98, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14653, server: 172.67.232.19, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14654, server: 172.67.222.157, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14657, server: 104.27.37.126, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
 
 
 
@@ -292,6 +302,8 @@ proxy-groups:
       # - 4-Free886-auto
       - 5-UFOvpn
       # - 5-UFOvpn-auto
+      - 6-Oslook
+      - 7-Sspool
 
 
   # - name: All-auto
@@ -321,7 +333,9 @@ proxy-groups:
     proxies:
       - 1-MyList
       - 5-UFOvpn
+      - 7-Sspool
       - 3-Kingfu
+      - 6-Oslook
       - 4-Free886
       - 2-Bulink
 
@@ -531,6 +545,17 @@ proxy-groups:
       - 🇩🇪 DE_07 @WangCai_1
       - 🇩🇪 DE_08 @WangCai_1
       - 🇩🇪 DE_05 @WangCai_1
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14638
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14639
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14640
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14642
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14643
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14644
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14645
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14652
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14653
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14654
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14657
 
   - name: 1-MyList-auto
     type: url-test
@@ -721,6 +746,17 @@ proxy-groups:
       - 🇩🇪 DE_07 @WangCai_1
       - 🇩🇪 DE_08 @WangCai_1
       - 🇩🇪 DE_05 @WangCai_1
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14638
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14639
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14640
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14642
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14643
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14644
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14645
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14652
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14653
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14654
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14657
     url: "http://www.gstatic.com/generate_204"
     interval: 300
 
@@ -777,6 +813,15 @@ proxy-groups:
   #   url: "http://www.gstatic.com/generate_204"
   #   interval: 300
 
+  - name: 6-Oslook
+    type: select
+    use:
+      - Oslook
+
+  - name: 7-Sspool
+    type: select
+    use:
+      - sspool.herokuapp.com
 
   - name: 🎥 NETFLIX
     type: select
@@ -786,6 +831,8 @@ proxy-groups:
       - 2-Bulink
       - 3-Kingfu
       - 4-Free886
+      - 6-Oslook
+      - 7-Sspool
 
 
 
@@ -794,9 +841,11 @@ proxy-groups:
 # https://github.com/yisi/proxy-provider-converter
 # 原始链接
 # bulink github.com/freefq    https://bulink.me/sub/mcgev/cl
-# kingfu free.kingfu.cf https://free.kingfu.cf/clash/proxies?c=HK,TW,JP,US,SG
-# https://free886.herokuapp.com/   https://free886.herokuapp.com/clash/proxies?c=HK,TW,JP,US,SG
+# kingfu free.kingfu.cf https://free.kingfu.cf/clash/proxies?c=HK,JP,NL,RU,SG,TW,US,AU,CA
+# https://free886.herokuapp.com/   https://free886.herokuapp.com/clash/proxies?c=HK,JP,NL,RU,SG,TW,US,AU,CA
 # ufo-vpn tel上搞的 https://raw.githubusercontent.com/clashconfig/MFA_VPN/main/MFA_Clash.yml
+# oslook https://github.com/oslook/clash-freenode
+# sspool https://sspool.nl/clash         https://sspool.herokuapp.com/clash/proxies?c=HK,JP,NL,RU,SG,TW,US,AU,CA&speed=20,1000&type=ss,vmess
 
 proxy-providers:
   bulink.me:
@@ -811,7 +860,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   free.kingfu.cf:
     type: http
-    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Ffree.kingfu.cf%2Fclash%2Fproxies%3Fc%3DHK%2CTW%2CJP%2CUS%2CSG&target=clash
+    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Ffree.kingfu.cf%2Fclash%2Fproxies%3Fc%3DHK%2CJP%2CNL%2CRU%2CSG%2CTW%2CUS%2CAU%2CCA&target=clash
     interval: 3600
     path: ./free.kingfu.cf.yaml
     health-check:
@@ -821,7 +870,7 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
   free886.herokuapp.com:
     type: http
-    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Ffree886.herokuapp.com%2Fclash%2Fproxies%3Fc%3DHK%2CTW%2CJP%2CUS%2CSG&target=clash
+    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Ffree886.herokuapp.com%2Fclash%2Fproxies%3Fc%3DHK%2CJP%2CNL%2CRU%2CSG%2CTW%2CUS%2CAU%2CCA&target=clash
     interval: 3600
     path: ./free886.herokuapp.com.yaml
     health-check:
@@ -834,6 +883,26 @@ proxy-providers:
     url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Fraw.githubusercontent.com%2Fclashconfig%2FMFA_VPN%2Fmain%2FMFA_Clash.yml&target=clash
     interval: 3600
     path: ./raw.githubusercontent.com.yaml
+    health-check:
+      enable: true
+      interval: 600
+      # lazy: true
+      url: http://www.gstatic.com/generate_204
+  Oslook:
+    type: http
+    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Fraw.githubusercontent.com%2Foslook%2Fclash-freenode%2Fmain%2Fclash.yaml&target=clash
+    interval: 3600
+    path: ./raw.githubusercontent.com.yaml
+    health-check:
+      enable: true
+      interval: 600
+      # lazy: true
+      url: http://www.gstatic.com/generate_204
+  sspool.herokuapp.com:
+    type: http
+    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Fsspool.herokuapp.com%2Fclash%2Fproxies%3Fc%3DHK%2CJP%2CNL%2CRU%2CSG%2CTW%2CUS%2CAU%2CCA%26speed%3D20%2C1000%26type%3Dss%2Cvmess&target=clash
+    interval: 3600
+    path: ./sspool.herokuapp.com.yaml
     health-check:
       enable: true
       interval: 600
