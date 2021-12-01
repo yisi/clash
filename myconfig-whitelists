@@ -322,7 +322,6 @@ proxy-groups:
     proxies:
       - 1-MyList
       - 5-UFOvpn
-      - 6-Wevpn
       - 3-Kingfu
       - 4-Free886
       - 2-Bulink
@@ -779,18 +778,12 @@ proxy-groups:
   #   url: "http://www.gstatic.com/generate_204"
   #   interval: 300
 
-  - name: 6-Wevpn
-    type: select
-    use:
-      - we-vpn
-
 
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 1-MyList
       - 5-UFOvpn
-      - 6-Wevpn
       - 2-Bulink
       - 3-Kingfu
       - 4-Free886
@@ -840,16 +833,6 @@ proxy-providers:
   ufo-vpn:
     type: http
     url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Fraw.githubusercontent.com%2Fclashconfig%2FMFA_VPN%2Fmain%2FMFA_Clash.yml&target=clash
-    interval: 3600
-    path: ./raw.githubusercontent.com.yaml
-    health-check:
-      enable: true
-      interval: 600
-      # lazy: true
-      url: http://www.gstatic.com/generate_204
-  we-vpn:
-    type: http
-    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Fraw.githubusercontent.com%2Fclashconfig%2Fonline%2Fmain%2Fwevpn.yml&target=clash
     interval: 3600
     path: ./raw.githubusercontent.com.yaml
     health-check:
