@@ -98,6 +98,172 @@ proxies:
   - {name: CYL-科技（2021.11.30） 23, server: 81.90.189.57, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: CYL-科技（2021.11.30） 24, server: 81.90.188.137, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: CYL-科技（2021.11.30） 25, server: 172.105.244.165, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 US_04 @WangCai_1, server: 38.75.137.71, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 US_10 @WangCai_1., server: 38.75.137.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 185.172.113.156:803, server: 185.172.113.156, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 185.172.113.156:800, server: 185.172.113.156, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇲 US_12 @WangCai_1, server: 38.75.136.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇯🇵 JP_10 @WangCai_1, server: 185.172.113.156, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 185.172.113.156:805, server: 185.172.113.156, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 118.107.244.110:3389, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 185.172.113.156:810, server: 185.172.113.156, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇲 US_09 @WangCai_1_, server: 38.114.114.68, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇯🇵 JP_00 @WangCai_1, server: 185.172.113.156, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇲 US_03 @WangCai_1, server: 38.114.114.49, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 US_11 @WangCai_1_, server: 38.114.114.68, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 US_10 @WangCai_1 2., server: 38.75.136.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 US_03 @WangCai_1 2, server: 38.68.134.85, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 US_10 @WangCai_1 3, server: 38.114.114.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 US_12+@WangCai_1., server: 167.88.62.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇲 US_12 @WangCai_1 2_, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇲 US_06+@WangCai_1, server: 167.88.62.68, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇲 US_06 @WangCai_1a, server: 38.68.135.93, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇯🇵 JP_11 @WangCai_1, server: 185.172.113.156, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇲 US_12 @WangCai_1 3, server: 38.114.114.68, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇲 US_10 @WangCai_1 4, server: 38.68.134.85, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 US_11 @WangCai_1 2., server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 US_10+@WangCai_1a, server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 US_12 @WangCai_1_, server: 38.68.135.93, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇲 US_09 @WangCai_1, server: 38.68.134.23, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 US_11 @WangCai_1, server: 38.68.135.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 118.107.244.110:3389_, server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 US_10 @WangCai_1, server: 38.68.134.23, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 US_09 @WangCai_1 2, server: 38.68.134.85, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇺🇲 US_11 @WangCai_1 2, server: 38.114.114.49, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 US_10 @WangCai_1 2, server: 38.68.135.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇭🇰 HK_08 @WangCai_1, server: 62.216.92.167, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇭🇰 HK_11 @WangCai_1, server: 62.216.92.167, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇲 US_09+@WangCai_1, server: 142.202.48.58, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇭🇰 HK_12 @WangCai_1, server: 62.216.92.167, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇲 US_06 @WangCai_1, server: 38.68.134.85, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇭🇰 HK_00 @WangCai_1, server: 62.216.92.167, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇭🇰 HK_07 @WangCai_1, server: 62.216.92.167, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇺🇲 US_11+@WangCai_1 2, server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 142.202.48.52:5004, server: 142.202.48.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 134.195.198.178:7307, server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ‌🇨🇦CA_09+@WangCai_1, server: 134.195.196.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 134.195.196.52:3306, server: 134.195.196.52, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ‌🇨🇦CA_06+@WangCai_1, server: 134.195.196.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 134.195.198.178:8090, server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: ‌🇨🇦CA_02+@WangCai_1, server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 142.202.48.52:5003, server: 142.202.48.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 134.195.198.178:5004, server: 134.195.198.178, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 134.195.196.52:2376, server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 134.195.196.52:2376 2, server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ‌🇨🇦CA_04+@WangCai_1, server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 142.202.48.7:3306, server: 142.202.48.7, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ‌🇨🇦CA_03+@WangCai_1, server: 134.195.196.52, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ‌🇨🇦CA_06+@WangCai_1 2, server: 134.195.198.178, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 142.202.48.7:5004, server: 142.202.48.7, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 142.202.48.105:443, server: 142.202.48.105, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 134.195.198.178:3389, server: 134.195.198.178, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇺🇲 US_11+@WangCai_1, server: 142.202.48.105, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ‌🇨🇦CA_12+@WangCai_1, server: 134.195.196.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 142.202.48.99:5004, server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: ‌🇨🇦CA_05+@WangCai_1, server: 134.195.196.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: ‌🇨🇦CA_08+@WangCai_1, server: 134.195.196.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 134.195.196.52:3389, server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ‌🇨🇦CA_04+@WangCai_1 2, server: 134.195.198.178, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ‌🇨🇦CA_11+@WangCai_1, server: 134.195.198.178, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 142.202.48.105:5003, server: 142.202.48.105, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 134.195.196.52:7306, server: 134.195.196.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 134.195.196.52:3389 2, server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ‌🇨🇦CA_04+@WangCai_1 3, server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 46.29.218.6:8090, server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 142.202.48.105:2376, server: 142.202.48.105, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 134.195.198.178:8090 2, server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 134.195.196.52:5004, server: 134.195.196.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 US_12+@WangCai_1 2, server: 142.202.48.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 142.202.48.105:3306, server: 142.202.48.105, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 142.202.48.99:443, server: 142.202.48.99, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 134.195.198.178:8090 3, server: 134.195.198.178, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 142.202.48.105:2376 2, server: 142.202.48.105, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 142.202.48.99:8091, server: 142.202.48.99, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 142.202.48.99:5004 2, server: 142.202.48.99, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 US_03+@WangCai_1, server: 142.202.48.105, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ‌🇨🇦CA_10+@WangCai_1 2, server: 134.195.198.178, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 134.195.196.52:5004 2, server: 134.195.196.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 146.0.36.23:7307, server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 142.202.48.105:8091, server: 142.202.48.105, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 142.202.48.83:443, server: 142.202.48.83, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 🇺🇲 US_10+@WangCai_1, server: 142.202.48.105, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 134.195.198.178:5003, server: 134.195.198.178, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 🇺🇲 US_05+@WangCai_1, server: 142.202.48.58, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇲 US_02+@WangCai_1, server: 142.202.48.105, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ‌🇨🇦CA_10+@WangCai_1, server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 142.202.48.105:8091 2, server: 142.202.48.105, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 146.0.36.23:7307 2, server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 142.202.48.83:443 2, server: 142.202.48.83, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 134.195.196.3:5003, server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 46.29.218.6:2376, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 134.195.196.3:2376, server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 134.195.196.3:3306, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 134.195.196.3:8091, server: 134.195.196.3, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 134.195.196.3:5003 2, server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 134.195.196.3:2375, server: 134.195.196.3, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 46.29.218.6:2376 2, server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 146.0.36.23:7307 3, server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 46.29.218.6:8091, server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 134.195.196.3:2376 2, server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: ‌🇨🇦CA_07+@WangCai_1, server: 134.195.198.178, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 134.195.196.3:3306 2, server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 46.29.218.6:7306, server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 134.195.196.3:8080, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ‌🇨🇦CA_12+@WangCai_1 2, server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: 134.195.196.3:3389, server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: ‌🇨🇦CA_01+@WangCai_1, server: 134.195.196.3, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 134.195.196.3:8080 2, server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: ‌🇨🇦CA_11+@WangCai_1 2, server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: GB_07 @WangCai_1, server: 172.99.190.186, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 134.195.196.3:7307, server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 134.195.196.3:8091 2, server: 134.195.196.3, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: GB_10 @WangCai_1, server: 172.99.190.186, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 146.0.36.23:3306, server: 146.0.36.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 146.0.36.23:8090, server: 146.0.36.23, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 172.99.190.186:7306, server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 172.99.190.186:8090, server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 146.0.36.23:7306, server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 172.99.190.186:5003, server: 172.99.190.186, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 172.99.190.186:5003 2, server: 172.99.190.186, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 172.99.190.186:2375, server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: GB_06 @WangCai_1, server: 172.99.190.186, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 172.99.190.186:2376, server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 172.99.190.186:8090 2, server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 46.29.218.6:2375, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: GB_03 @WangCai_1, server: 172.99.190.186, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: GB_11 @WangCai_1, server: 172.99.190.186, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 46.29.218.6:2375 2, server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 46.29.218.6:7307, server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 172.99.190.186:7306 2, server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇺🇸, server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 172.99.190.186:7306 3, server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 172.99.190.186:2376 2, server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 172.99.190.186:2375 2, server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: GB_08 @WangCai_1, server: 172.99.190.186, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 172.99.190.186:7307, server: 172.99.190.186, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: GB_12 @WangCai_1, server: 172.99.190.186, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: GB_09 @WangCai_1, server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 172.99.190.186:2375 3, server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: GB_05 @WangCai_1, server: 172.99.190.186, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 172.99.190.186:2376 3, server: 172.99.190.186, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 172.99.190.186:7307 2, server: 172.99.190.186, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 3, server: 23.106.33.156, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: R3wS0jxB8ARCZgapOF8a4CpFc5lSOqCDZYSXD2a3zuY7eETD6IANy39elnxKy3}
+  - {name: 🇩🇪 DE_06 @WangCai_1, server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 🇸🇬 +SG_00+@WangCai_1, server: 217.197.161.138, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇸🇬 +SG_00+@WangCai_1 2, server: 217.197.161.244, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: GB(欢迎订阅youtube：8度科技), server: 23.106.35.90, port: 18336, type: ss, cipher: chacha20-ietf-poly1305, password: A33x2ly5CjwpZ7DYZOe4FC0CupxSKA89caI8gSlRaE3DYnaXeORD6SNFyqBTz3}
+  - {name: 🇩🇪 DE_02 @WangCai_1, server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇩🇪 DE_01 @WangCai_1, server: 146.0.36.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇩🇪 DE_04 @WangCai_1, server: 146.0.36.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 🇩🇪 DE_07 @WangCai_1, server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 🇩🇪 DE_08 @WangCai_1, server: 146.0.36.23, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 🇩🇪 DE_05 @WangCai_1, server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+
+
+
+
+
+
 
 
 
@@ -112,20 +278,21 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
-      - All-select-load-balance
+      # - All-select-load-balance
       - All-select-fallback
-      - All-auto-fallback
+      # - All-auto-fallback
       # - All-auto
       - 1-MyList
       - 1-MyList-auto
       - 2-Bulink
-      - 2-Bulink-auto
+      # - 2-Bulink-auto
       - 3-Kingfu
-      - 3-Kingfu-auto
+      # - 3-Kingfu-auto
       - 4-Free886
-      - 4-Free886-auto
+      # - 4-Free886-auto
       - 5-UFOvpn
-      - 5-UFOvpn-auto
+      # - 5-UFOvpn-auto
+      - 6-Wevpn
 
 
   # - name: All-auto
@@ -139,39 +306,41 @@ proxy-groups:
   #   url: "http://www.gstatic.com/generate_204"
   #   interval: 300
 
-  - name: All-select-load-balance
-    type: load-balance
-    proxies:
-      - 3-Kingfu
-      - 5-UFOvpn
-      - 4-Free886
-      - 2-Bulink
-      - 1-MyList
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
+  # - name: All-select-load-balance
+  #   type: load-balance
+  #   proxies:
+  #     - 3-Kingfu
+  #     - 5-UFOvpn
+  #     - 4-Free886
+  #     - 2-Bulink
+  #     - 1-MyList
+  #   url: "http://www.gstatic.com/generate_204"
+  #   interval: 300
 
   - name: All-select-fallback
     type: fallback
     proxies:
-      - 3-Kingfu
+      - 1-MyList
       - 5-UFOvpn
+      - 6-Wevpn
+      - 3-Kingfu
       - 4-Free886
       - 2-Bulink
-      - 1-MyList
+
     url: "http://www.gstatic.com/generate_204"
     interval: 300
 
 
-  - name: All-auto-fallback
-    type: fallback
-    proxies:
-     - 3-Kingfu-auto
-     - 5-UFOvpn-auto
-     - 4-Free886-auto
-     - 2-Bulink-auto
-     - 1-MyList-auto
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
+  # - name: All-auto-fallback
+  #   type: fallback
+  #   proxies:
+  #    - 3-Kingfu-auto
+  #    - 5-UFOvpn-auto
+  #    - 4-Free886-auto
+  #    - 2-Bulink-auto
+  #    - 1-MyList-auto
+  #   url: "http://www.gstatic.com/generate_204"
+  #   interval: 300
 
 
 
@@ -208,11 +377,352 @@ proxy-groups:
       - CYL-科技（2021.11.30） 23
       - CYL-科技（2021.11.30） 24
       - CYL-科技（2021.11.30） 25
+      - 🇺🇲 US_04 @WangCai_1
+      - 🇺🇲 US_10 @WangCai_1.
+      - 185.172.113.156:803
+      - 185.172.113.156:800
+      - 🇺🇲 US_12 @WangCai_1
+      - 🇯🇵 JP_10 @WangCai_1
+      - 185.172.113.156:805
+      - 118.107.244.110:3389_
+      - 185.172.113.156:810
+      - 🇺🇲 US_09 @WangCai_1_
+      - 🇯🇵 JP_00 @WangCai_1
+      - 🇺🇲 US_03 @WangCai_1
+      - 🇺🇲 US_11 @WangCai_1_
+      - 🇺🇲 US_10 @WangCai_1 2.
+      - 🇺🇲 US_03 @WangCai_1 2
+      - 🇺🇲 US_10 @WangCai_1 3
+      - 🇺🇲 US_12+@WangCai_1.
+      - 🇺🇲 US_06+@WangCai_1
+      - 🇺🇲 US_06 @WangCai_1a
+      - 🇯🇵 JP_11 @WangCai_1
+      - 🇺🇲 US_12 @WangCai_1 3
+      - 🇺🇲 US_10 @WangCai_1 4
+      - 🇺🇲 US_11 @WangCai_1 2.
+      - 🇺🇲 US_10+@WangCai_1a
+      - 🇺🇲 US_12 @WangCai_1_
+      - 🇺🇲 US_09 @WangCai_1
+      - 🇺🇲 US_11 @WangCai_1
+      - 118.107.244.110:3389
+      - 🇺🇲 US_10 @WangCai_1
+      - 🇺🇲 US_09 @WangCai_1 2
+      - 🇺🇲 US_11 @WangCai_1 2
+      - 🇺🇲 US_12 @WangCai_1 2_
+      - 🇺🇲 US_10 @WangCai_1 2
+      - 🇭🇰 HK_08 @WangCai_1
+      - 🇭🇰 HK_11 @WangCai_1
+      - 🇭🇰 HK_12 @WangCai_1
+      - 🇺🇲 US_06 @WangCai_1
+      - 🇭🇰 HK_00 @WangCai_1
+      - 🇭🇰 HK_07 @WangCai_1
+      - 🇺🇲 US_11+@WangCai_1 2
+      - 142.202.48.52:5004
+      - 134.195.198.178:7307
+      - ‌🇨🇦CA_09+@WangCai_1
+      - 134.195.196.52:3306
+      - ‌🇨🇦CA_06+@WangCai_1
+      - 134.195.198.178:8090
+      - ‌🇨🇦CA_02+@WangCai_1
+      - 142.202.48.52:5003
+      - 134.195.198.178:5004
+      - 134.195.196.52:2376
+      - 134.195.196.52:2376 2
+      - ‌🇨🇦CA_04+@WangCai_1
+      - 142.202.48.7:3306
+      - ‌🇨🇦CA_03+@WangCai_1
+      - ‌🇨🇦CA_06+@WangCai_1 2
+      - 142.202.48.7:5004
+      - 142.202.48.105:443
+      - ‌🇨🇦CA_10+@WangCai_1
+      - 134.195.198.178:3389
+      - ‌🇨🇦CA_12+@WangCai_1
+      - 142.202.48.99:5004
+      - ‌🇨🇦CA_05+@WangCai_1
+      - ‌🇨🇦CA_08+@WangCai_1
+      - 134.195.196.52:3389
+      - ‌🇨🇦CA_04+@WangCai_1 2
+      - ‌🇨🇦CA_11+@WangCai_1
+      - 142.202.48.105:5003
+      - 134.195.196.52:7306
+      - 134.195.196.52:3389 2
+      - ‌🇨🇦CA_04+@WangCai_1 3
+      - 46.29.218.6:8090
+      - 142.202.48.105:2376
+      - 134.195.198.178:8090 2
+      - 134.195.196.52:5004
+      - 🇺🇲 US_12+@WangCai_1 2
+      - 142.202.48.105:3306
+      - 142.202.48.99:443
+      - 134.195.198.178:8090 3
+      - 142.202.48.105:2376 2
+      - 142.202.48.99:8091
+      - 142.202.48.99:5004 2
+      - ‌🇨🇦CA_10+@WangCai_1 2
+      - 134.195.196.52:5004 2
+      - 146.0.36.23:7307
+      - 142.202.48.105:8091
+      - 142.202.48.83:443
+      - 134.195.198.178:5003
+      - 🇺🇲 US_05+@WangCai_1
+      - 🇺🇲 US_02+@WangCai_1
+      - 142.202.48.105:8091 2
+      - 146.0.36.23:7307 2
+      - 142.202.48.83:443 2
+      - 134.195.196.3:5003
+      - 46.29.218.6:2376
+      - 134.195.196.3:2376
+      - 134.195.196.3:3306
+      - 134.195.196.3:8091
+      - 134.195.196.3:5003 2
+      - 134.195.196.3:2375
+      - 46.29.218.6:2376 2
+      - 146.0.36.23:7307 3
+      - 46.29.218.6:8091
+      - 134.195.196.3:2376 2
+      - ‌🇨🇦CA_07+@WangCai_1
+      - 134.195.196.3:3306 2
+      - 46.29.218.6:7306
+      - 134.195.196.3:8080
+      - ‌🇨🇦CA_12+@WangCai_1 2
+      - 134.195.196.3:3389
+      - ‌🇨🇦CA_01+@WangCai_1
+      - 134.195.196.3:8080 2
+      - ‌🇨🇦CA_11+@WangCai_1 2
+      - GB_07 @WangCai_1
+      - 134.195.196.3:7307
+      - 134.195.196.3:8091 2
+      - GB_10 @WangCai_1
+      - 146.0.36.23:3306
+      - 146.0.36.23:8090
+      - 172.99.190.186:7306
+      - 172.99.190.186:8090
+      - 146.0.36.23:7306
+      - 172.99.190.186:5003
+      - 172.99.190.186:5003 2
+      - 172.99.190.186:2375
+      - GB_06 @WangCai_1
+      - 172.99.190.186:2376
+      - 172.99.190.186:8090 2
+      - 46.29.218.6:2375
+      - GB_03 @WangCai_1
+      - GB_11 @WangCai_1
+      - 46.29.218.6:2375 2
+      - 46.29.218.6:7307
+      - 172.99.190.186:7306 2
+      - 🇺🇸
+      - 172.99.190.186:7306 3
+      - 172.99.190.186:2376 2
+      - 172.99.190.186:2375 2
+      - GB_08 @WangCai_1
+      - 172.99.190.186:7307
+      - GB_12 @WangCai_1
+      - GB_09 @WangCai_1
+      - 172.99.190.186:2375 3
+      - GB_05 @WangCai_1
+      - 172.99.190.186:2376 3
+      - 172.99.190.186:7307 2
+      - 3
+      - 🇩🇪 DE_06 @WangCai_1
+      - 🇸🇬 +SG_00+@WangCai_1
+      - 🇸🇬 +SG_00+@WangCai_1 2
+      - GB(欢迎订阅youtube：8度科技)
+      - 🇩🇪 DE_02 @WangCai_1
+      - 🇩🇪 DE_01 @WangCai_1
+      - 🇩🇪 DE_04 @WangCai_1
+      - 🇩🇪 DE_07 @WangCai_1
+      - 🇩🇪 DE_08 @WangCai_1
+      - 🇩🇪 DE_05 @WangCai_1
 
   - name: 1-MyList-auto
     type: url-test
     proxies:
-      - 1-MyList
+      - timevpn-Kiev
+      - timevpn-Moscow
+      - timevpn-Chicago
+      - timevpn-Amsterdam
+      - timevpn-Ru-vmess
+      - CYL-科技（2021.11.30）
+      - CYL-科技（2021.11.30） 2
+      - CYL-科技（2021.11.30） 3
+      - CYL-科技（2021.11.30） 4
+      - CYL-科技（2021.11.30） 5
+      - CYL-科技（2021.11.30） 6
+      - CYL-科技（2021.11.30） 7
+      - CYL-科技（2021.11.30） 8
+      - CYL-科技（2021.11.30） 9
+      - CYL-科技（2021.11.30） 10
+      - CYL-科技（2021.11.30） 11
+      - CYL-科技（2021.11.30） 12
+      - CYL-科技（2021.11.30） 13
+      - CYL-科技（2021.11.30） 14
+      - CYL-科技（2021.11.30） 15
+      - CYL-科技（2021.11.30） 16
+      - CYL-科技（2021.11.30） 17
+      - CYL-科技（2021.11.30） 18
+      - CYL-科技（2021.11.30） 19
+      - CYL-科技（2021.11.30） 20
+      - CYL-科技（2021.11.30） 21
+      - CYL-科技（2021.11.30） 22
+      - CYL-科技（2021.11.30） 23
+      - CYL-科技（2021.11.30） 24
+      - CYL-科技（2021.11.30） 25
+      - 🇺🇲 US_04 @WangCai_1
+      - 🇺🇲 US_10 @WangCai_1.
+      - 185.172.113.156:803
+      - 185.172.113.156:800
+      - 🇺🇲 US_12 @WangCai_1
+      - 🇯🇵 JP_10 @WangCai_1
+      - 185.172.113.156:805
+      - 118.107.244.110:3389_
+      - 185.172.113.156:810
+      - 🇺🇲 US_09 @WangCai_1_
+      - 🇯🇵 JP_00 @WangCai_1
+      - 🇺🇲 US_03 @WangCai_1
+      - 🇺🇲 US_11 @WangCai_1_
+      - 🇺🇲 US_10 @WangCai_1 2.
+      - 🇺🇲 US_03 @WangCai_1 2
+      - 🇺🇲 US_10 @WangCai_1 3
+      - 🇺🇲 US_12+@WangCai_1.
+      - 🇺🇲 US_06+@WangCai_1
+      - 🇺🇲 US_06 @WangCai_1a
+      - 🇯🇵 JP_11 @WangCai_1
+      - 🇺🇲 US_12 @WangCai_1 3
+      - 🇺🇲 US_10 @WangCai_1 4
+      - 🇺🇲 US_11 @WangCai_1 2.
+      - 🇺🇲 US_10+@WangCai_1a
+      - 🇺🇲 US_12 @WangCai_1_
+      - 🇺🇲 US_09 @WangCai_1
+      - 🇺🇲 US_11 @WangCai_1
+      - 118.107.244.110:3389
+      - 🇺🇲 US_10 @WangCai_1
+      - 🇺🇲 US_09 @WangCai_1 2
+      - 🇺🇲 US_11 @WangCai_1 2
+      - 🇺🇲 US_12 @WangCai_1 2_
+      - 🇺🇲 US_10 @WangCai_1 2
+      - 🇭🇰 HK_08 @WangCai_1
+      - 🇭🇰 HK_11 @WangCai_1
+      - 🇭🇰 HK_12 @WangCai_1
+      - 🇺🇲 US_06 @WangCai_1
+      - 🇭🇰 HK_00 @WangCai_1
+      - 🇭🇰 HK_07 @WangCai_1
+      - 🇺🇲 US_11+@WangCai_1 2
+      - 142.202.48.52:5004
+      - 134.195.198.178:7307
+      - ‌🇨🇦CA_09+@WangCai_1
+      - 134.195.196.52:3306
+      - ‌🇨🇦CA_06+@WangCai_1
+      - 134.195.198.178:8090
+      - ‌🇨🇦CA_02+@WangCai_1
+      - 142.202.48.52:5003
+      - 134.195.198.178:5004
+      - 134.195.196.52:2376
+      - 134.195.196.52:2376 2
+      - ‌🇨🇦CA_04+@WangCai_1
+      - 142.202.48.7:3306
+      - ‌🇨🇦CA_03+@WangCai_1
+      - ‌🇨🇦CA_06+@WangCai_1 2
+      - 142.202.48.7:5004
+      - 142.202.48.105:443
+      - ‌🇨🇦CA_10+@WangCai_1
+      - 134.195.198.178:3389
+      - ‌🇨🇦CA_12+@WangCai_1
+      - 142.202.48.99:5004
+      - ‌🇨🇦CA_05+@WangCai_1
+      - ‌🇨🇦CA_08+@WangCai_1
+      - 134.195.196.52:3389
+      - ‌🇨🇦CA_04+@WangCai_1 2
+      - ‌🇨🇦CA_11+@WangCai_1
+      - 142.202.48.105:5003
+      - 134.195.196.52:7306
+      - 134.195.196.52:3389 2
+      - ‌🇨🇦CA_04+@WangCai_1 3
+      - 46.29.218.6:8090
+      - 142.202.48.105:2376
+      - 134.195.198.178:8090 2
+      - 134.195.196.52:5004
+      - 🇺🇲 US_12+@WangCai_1 2
+      - 142.202.48.105:3306
+      - 142.202.48.99:443
+      - 134.195.198.178:8090 3
+      - 142.202.48.105:2376 2
+      - 142.202.48.99:8091
+      - 142.202.48.99:5004 2
+      - ‌🇨🇦CA_10+@WangCai_1 2
+      - 134.195.196.52:5004 2
+      - 146.0.36.23:7307
+      - 142.202.48.105:8091
+      - 142.202.48.83:443
+      - 134.195.198.178:5003
+      - 🇺🇲 US_05+@WangCai_1
+      - 🇺🇲 US_02+@WangCai_1
+      - 142.202.48.105:8091 2
+      - 146.0.36.23:7307 2
+      - 142.202.48.83:443 2
+      - 134.195.196.3:5003
+      - 46.29.218.6:2376
+      - 134.195.196.3:2376
+      - 134.195.196.3:3306
+      - 134.195.196.3:8091
+      - 134.195.196.3:5003 2
+      - 134.195.196.3:2375
+      - 46.29.218.6:2376 2
+      - 146.0.36.23:7307 3
+      - 46.29.218.6:8091
+      - 134.195.196.3:2376 2
+      - ‌🇨🇦CA_07+@WangCai_1
+      - 134.195.196.3:3306 2
+      - 46.29.218.6:7306
+      - 134.195.196.3:8080
+      - ‌🇨🇦CA_12+@WangCai_1 2
+      - 134.195.196.3:3389
+      - ‌🇨🇦CA_01+@WangCai_1
+      - 134.195.196.3:8080 2
+      - ‌🇨🇦CA_11+@WangCai_1 2
+      - GB_07 @WangCai_1
+      - 134.195.196.3:7307
+      - 134.195.196.3:8091 2
+      - GB_10 @WangCai_1
+      - 146.0.36.23:3306
+      - 146.0.36.23:8090
+      - 172.99.190.186:7306
+      - 172.99.190.186:8090
+      - 146.0.36.23:7306
+      - 172.99.190.186:5003
+      - 172.99.190.186:5003 2
+      - 172.99.190.186:2375
+      - GB_06 @WangCai_1
+      - 172.99.190.186:2376
+      - 172.99.190.186:8090 2
+      - 46.29.218.6:2375
+      - GB_03 @WangCai_1
+      - GB_11 @WangCai_1
+      - 46.29.218.6:2375 2
+      - 46.29.218.6:7307
+      - 172.99.190.186:7306 2
+      - 🇺🇸
+      - 172.99.190.186:7306 3
+      - 172.99.190.186:2376 2
+      - 172.99.190.186:2375 2
+      - GB_08 @WangCai_1
+      - 172.99.190.186:7307
+      - GB_12 @WangCai_1
+      - GB_09 @WangCai_1
+      - 172.99.190.186:2375 3
+      - GB_05 @WangCai_1
+      - 172.99.190.186:2376 3
+      - 172.99.190.186:7307 2
+      - 3
+      - 🇩🇪 DE_06 @WangCai_1
+      - 🇸🇬 +SG_00+@WangCai_1
+      - 🇸🇬 +SG_00+@WangCai_1 2
+      - GB(欢迎订阅youtube：8度科技)
+      - 🇩🇪 DE_02 @WangCai_1
+      - 🇩🇪 DE_01 @WangCai_1
+      - 🇩🇪 DE_04 @WangCai_1
+      - 🇩🇪 DE_07 @WangCai_1
+      - 🇩🇪 DE_08 @WangCai_1
+      - 🇩🇪 DE_05 @WangCai_1
     url: "http://www.gstatic.com/generate_204"
     interval: 300
 
@@ -221,59 +731,66 @@ proxy-groups:
     type: select
     use:
       - bulink.me
-  - name: 2-Bulink-auto
-    type: url-test
-    use:
-      - bulink.me
-    # proxies:
-    #   - DIRECT
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
+  # - name: 2-Bulink-auto
+  #   type: url-test
+  #   use:
+  #     - bulink.me
+  #   # proxies:
+  #   #   - DIRECT
+  #   url: "http://www.gstatic.com/generate_204"
+  #   interval: 300
 
   - name: 3-Kingfu
     type: select
     use:
       - free.kingfu.cf
-  - name: 3-Kingfu-auto
-    type: url-test
-    use:
-      - free.kingfu.cf
-    # proxies:
-    #   - DIRECT
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
+  # - name: 3-Kingfu-auto
+  #   type: url-test
+  #   use:
+  #     - free.kingfu.cf
+  #   # proxies:
+  #   #   - DIRECT
+  #   url: "http://www.gstatic.com/generate_204"
+  #   interval: 300
 
   - name: 4-Free886
     type: select
     use:
       - free886.herokuapp.com
-  - name: 4-Free886-auto
-    type: url-test
-    use:
-      - free886.herokuapp.com
-    # proxies:
-    #   - DIRECT
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
+  # - name: 4-Free886-auto
+  #   type: url-test
+  #   use:
+  #     - free886.herokuapp.com
+  #   # proxies:
+  #   #   - DIRECT
+  #   url: "http://www.gstatic.com/generate_204"
+  #   interval: 300
 
   - name: 5-UFOvpn
     type: select
     use:
       - ufo-vpn
-  - name: 5-UFOvpn-auto
-    type: url-test
+  # - name: 5-UFOvpn-auto
+  #   type: url-test
+  #   use:
+  #     - ufo-vpn
+  #   # proxies:
+  #   #   - DIRECT
+  #   url: "http://www.gstatic.com/generate_204"
+  #   interval: 300
+
+  - name: 6-Wevpn
+    type: select
     use:
-      - ufo-vpn
-    # proxies:
-    #   - DIRECT
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
+      - we-vpn
+
 
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 1-MyList
       - 5-UFOvpn
+      - 6-Wevpn
       - 2-Bulink
       - 3-Kingfu
       - 4-Free886
@@ -323,6 +840,16 @@ proxy-providers:
   ufo-vpn:
     type: http
     url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Fraw.githubusercontent.com%2Fclashconfig%2FMFA_VPN%2Fmain%2FMFA_Clash.yml&target=clash
+    interval: 3600
+    path: ./raw.githubusercontent.com.yaml
+    health-check:
+      enable: true
+      interval: 600
+      # lazy: true
+      url: http://www.gstatic.com/generate_204
+  we-vpn:
+    type: http
+    url: https://proxy-provider-converter-nu.vercel.app/api/convert?url=https%3A%2F%2Fraw.githubusercontent.com%2Fclashconfig%2Fonline%2Fmain%2Fwevpn.yml&target=clash
     interval: 3600
     path: ./raw.githubusercontent.com.yaml
     health-check:
