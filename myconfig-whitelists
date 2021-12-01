@@ -97,10 +97,10 @@ proxy-groups:
     type: fallback
     proxies:
       - 1-MyList
+      - 6-Oslook
       - 5-UFOvpn
       - 7-Sspool
       - 3-Kingfu
-      - 6-Oslook
       - 4-Free886
       - 2-Bulink
 
@@ -132,14 +132,15 @@ proxy-groups:
     use:
       - my-list
 
-  - name: 1-MyList-auto
-    type: url-test
-    use:
-      - my-list
-    # proxies:
-    #   - DIRECT
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
+  # - name: 1-MyList-auto
+  #   type: url-test
+  #   use:
+  #     - my-list
+  #   # proxies:
+  #   #   - DIRECT
+  #   url: "http://www.gstatic.com/generate_204"
+  #   interval: 300
+
 
 
   - name: 2-Bulink
@@ -203,6 +204,9 @@ proxy-groups:
     type: select
     use:
       - sspool.herokuapp.com
+
+
+
 
   - name: 🎥 NETFLIX
     type: select
