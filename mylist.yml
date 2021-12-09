@@ -117,12 +117,22 @@ proxies:
   - {name: 'goatvpn6_110', server: 205.185.125.5, port: 16823, type: vmess, uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0, alterId: 1, cipher: auto, tls: false, network: tcp}
   - {name: 'n_46.29.218.6:2376+2_111', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 'Norway+22_112', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {
+    name: timevpn-Moscow, 
+    server: ru.timevpn.com, 
+    port: 57888, 
+    type: ss, 
+    cipher: AES-256-CFB, 
+    password: fgRYwef
+    }
+    
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - timevpn-Moscow
       - 🇸🇬++SG_00+@WangCai_1+2
       - 🇸🇬++SG_00+@WangCai_1
       - CYL-科技（2021.11.30） 22_3
