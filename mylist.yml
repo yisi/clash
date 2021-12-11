@@ -5,950 +5,492 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇸🇬++SG_00+@WangCai_1+2', server: 217.197.161.244, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇸🇬++SG_00+@WangCai_1', server: 217.197.161.138, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'CYL-科技（2021.11.30） 22_3', server: zj.haojiahuo.club, port: 30057, type: vmess, uuid: 4a6ada0c-e453-3217-8210-8556f9c92494, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /videos, ws-headers: {Host: xuexi.cn}}
-  - {name: 'CYL-科技（2021.11.30）+3_4', server: azure-hk.qcppl.com, port: 10008, type: trojan, password: 391869cf-f21d-4b24-a6e6-862cac94bb15, sni: azure-hk.qcppl.com}
-  - {name: 'CYL-科技（2021.11.30）+6_5', server: azure-hk.qcppl.com, port: 10012, type: trojan, password: 391869cf-f21d-4b24-a6e6-862cac94bb15, sni: azure-hk.qcppl.com}
-  - {name: 'CYL-科技（2021.11.30） 2_6', server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /clientarea, ws-headers: {Host: cmhk04.xc188.net}}
-  - {name: '🇯🇵+Japan+8_7', server: 5.180.76.74, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇯🇵+Japan+7_8', server: 5.180.76.74, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇯🇵+Japan+10_9', server: 5.180.76.74, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇯🇵+Japan+9_10', server: 5.180.76.74, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇸🇪+Sweden+2+t.me/SurfShark_ALA_1', server: 196.196.156.106, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'n__2', server: 152.67.215.21, port: 54056, type: vmess, uuid: d85409fa-5a36-11ec-a8ff-02001700cc05, alterId: 0, cipher: auto, tls: false, network: kcp}
+  - {name: 'time-vpn-de_3', server: de.timevpn.com, port: 58915, type: ss, cipher: aes-256-cfb, password: aAwEeeG}
+  - {name: '🇸🇪+Sweden+2+t.me/SurfShark_ALA_4', server: 196.196.156.106, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_5', server: 69.39.239.72, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
+  - {name: '🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_6', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: '🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_7', server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
+  - {name: '🇩🇪+Germany+6+t.me/SurfShark_ALA_8', server: 37.1.192.129, port: 55605, type: ss, cipher: aes-256-cfb, password: ruEvBSp}
+  - {name: '🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_9', server: 69.39.239.72, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
+  - {name: '🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_10', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: '🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_11', server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
+  - {name: '🇺🇦+Ukraine++1+t.me/SurfShark_ALA_12', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: '🇹🇼+Taiwan+1+t.me/SurfShark_ALA_13', server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: '🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_14', server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_15', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇲🇽+Mexico+1+t.me/SurfShark_ALA_16', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: '🇮🇳+India+1+t.me/SurfShark_ALA_17', server: 169.38.107.52, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: '🇬🇷+Greece+1+t.me/SurfShark_ALA_18', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: '🇷🇴+Romania+1+t.me/SurfShark_ALA_19', server: 86.105.25.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
+  - {name: '🇺🇦+Ukraine++1+t.me/SurfShark_ALA_20', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: '🇳🇴+Norway+1+t.me/SurfShark_ALA_21', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_22', server: 69.39.239.72, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
+  - {name: '🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_23', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: '🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_24', server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
+  - {name: '🇩🇪+Germany+2+t.me/SurfShark_ALA_25', server: 178.18.255.190, port: 989, type: ss, cipher: aes-256-cfb, password: f8f7aCzcPKbsF8p3}
+  - {name: '🇩🇪+Germany+5+t.me/SurfShark_ALA_26', server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇩🇪+Germany+6+t.me/SurfShark_ALA_27', server: 37.1.192.129, port: 55605, type: ss, cipher: aes-256-cfb, password: ruEvBSp}
+  - {name: '🇬🇷+Greece+1+t.me/SurfShark_ALA_28', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: '🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_29', server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_30', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇮🇳+India+1+t.me/SurfShark_ALA_31', server: 169.38.107.52, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: '🇹🇼+Taiwan+1+t.me/SurfShark_ALA_32', server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: '🇺🇦+Ukraine++1+t.me/SurfShark_ALA_33', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: '🇹🇼+Taiwan+1+t.me/SurfShark_ALA_34', server: 59.125.11.158, port: 8158, type: ss, cipher: rc4-md5, password: passinfo123}
+  - {name: '🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_35', server: 118.107.244.110, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_36', server: 118.107.244.110, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇲🇽+Mexico+1+t.me/SurfShark_ALA_37', server: 169.57.35.97, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 3Q5yYEGGMu8jU2p25aWL}
+  - {name: '🇮🇳+India+1+t.me/SurfShark_ALA_38', server: 169.38.107.52, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: '🇬🇷+Greece+1+t.me/SurfShark_ALA_39', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
+  - {name: '🇳🇴+Norway+1+t.me/SurfShark_ALA_40', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_41', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: '🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_42', server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
   - {name: 'n_118.107.244.110:3389_11', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇰🇷+Korea,+Republic+of+10_12', server: 158.247.200.56, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: 'n_118.107.244.110:3389__13', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇰🇷+Korea,+Republic+of+15_14', server: 158.247.223.116, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇰🇷+Korea,+Republic+of+33_15', server: 141.164.56.250, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇰🇷+Korea,+Republic+of+25_16', server: 141.164.35.41, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇰🇷+Korea,+Republic+of+49_17', server: 141.164.38.135, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇰🇷+Korea,+Republic+of+50_18', server: 141.164.38.135, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '🇰🇷+Korea,+Republic+of+22_19', server: 141.164.35.41, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'CYL-科技（2021.11.30） 7_20', server: 8.214.46.152, port: 50885, type: vmess, uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 8.214.46.152}}
-  - {name: '🇩🇪 Relay_🇺🇸US-🇩🇪DE_14645', server: 104.21.201.210, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: '🇩🇪 Relay_🇺🇸US-🇩🇪DE_14640', server: 104.27.76.9, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: '🇩🇪+DE_07+@WangCai_1', server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇩🇪 Relay_🇺🇸US-🇩🇪DE_14642', server: 104.21.239.147, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: '🇩🇪+DE_01+@WangCai_1', server: 146.0.36.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇩🇪 Relay_🇺🇸US-🇩🇪DE_14639', server: 104.24.45.194, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 'CYL-科技（2021.11.30）+21_27', server: 81.90.189.57, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇩🇪 Relay_🇺🇸US-🇩🇪DE_14653', server: 172.67.232.19, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 'CYL-科技（2021.11.30）+23_29', server: 81.90.189.57, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇩🇪 Relay_🇺🇸US-🇩🇪DE_14657', server: 104.27.37.126, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: '🇩🇪 Relay_🇺🇸US-🇩🇪DE_14643', server: 104.25.246.117, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: '🇩🇪 Relay_🇺🇸US-🇩🇪DE_14654', server: 172.67.222.157, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: '🇰🇷+Korea,+Republic+of+13_33', server: 158.247.219.68, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇰🇷+Korea,+Republic+of+36_34', server: 158.247.227.123, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '🇰🇷+Korea,+Republic+of+34_35', server: 158.247.227.123, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'goatvpn22_36', server: 62.216.85.27, port: 16823, type: vmess, uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: 'timevpn-Amsterdam_37', server: nl.timevpn.com, port: 53035, type: ss, cipher: AES-256-CFB, password: hGy6ZNZ}
-  - {name: 'goatvpn21_38', server: 62.216.85.22, port: 16823, type: vmess, uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: 'n_134.195.196.52:2376+2_39', server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'n_134.195.196.3:8080+2_40', server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇨🇦+Canada+72_41', server: 198.57.27.49, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'n_134.195.196.3:2375_42', server: 134.195.196.3, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'n_134.195.196.3:8091+2_43', server: 134.195.196.3, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'n_134.195.196.3:3306_44', server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '‌🇨🇦CA_11+@WangCai_1+2', server: 134.195.196.3, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇺🇸+United+States+45_46', server: 38.121.43.142, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'n_134.195.196.3:2376+2_47', server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '‌🇨🇦CA_02+@WangCai_1', server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'n_134.195.196.3:7307_49', server: 134.195.196.3, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '‌🇨🇦CA_03+@WangCai_1', server: 134.195.196.52, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦+Canada+68_51', server: 134.195.196.110, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇨🇦+Canada+69_52', server: 134.195.196.110, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'n_134.195.196.52:5004+2_53', server: 134.195.196.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'n_134.195.196.52:3389+2_54', server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'n_146.0.36.23:3306_55', server: 146.0.36.23, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 'Norway+25_56', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '‌🇨🇦CA_05+@WangCai_1', server: 134.195.196.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'n_134.195.196.3:3306+2_58', server: 134.195.196.3, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'n_146.0.36.23:8090_59', server: 146.0.36.23, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'n_134.195.196.3:2376_60', server: 134.195.196.3, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'n_134.195.196.3:3389_61', server: 134.195.196.3, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '‌🇨🇦CA_08+@WangCai_1', server: 134.195.196.52, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'n_134.195.196.52:7306_63', server: 134.195.196.52, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: '‌🇨🇦CA_10+@WangCai_1', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'n_134.195.196.3:8091_65', server: 134.195.196.3, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'n_134.195.196.52:3389_66', server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'n_134.195.196.3:5003+2_67', server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '‌🇨🇦CA_01+@WangCai_1', server: 134.195.196.3, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'n_134.195.196.52:3306_69', server: 134.195.196.52, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '‌🇨🇦CA_09+@WangCai_1', server: 134.195.196.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '‌🇨🇦CA_06+@WangCai_1', server: 134.195.196.52, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: 'n_46.29.218.6:7307_72', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '‌🇨🇦CA_12+@WangCai_1', server: 134.195.196.52, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: 'n_134.195.196.3:8080_74', server: 134.195.196.3, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇩🇪+DE_08+@WangCai_1', server: 146.0.36.23, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 'timevpn-Ru-vmess_76', server: 37.252.1.197, port: 3000, type: vmess, uuid: 49671268-1e72-45dd-b17e-06272197b5f5, alterId: 4, cipher: auto, tls: false, network: tcp}
-  - {name: '‌🇨🇦CA_04+@WangCai_1', server: 198.57.27.218, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 'n_146.0.36.23:7306_78', server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'n_134.195.196.52:5004_79', server: 134.195.196.52, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'n_134.195.196.3:5003_80', server: 134.195.196.3, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇩🇪+DE_02+@WangCai_1', server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'n_134.195.196.52:2376_82', server: 134.195.196.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '‌🇨🇦CA_12+@WangCai_1+2', server: 134.195.196.3, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇩🇪+Germany+5_84', server: 89.163.224.82, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: '🇩🇪+DE_06+@WangCai_1', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'n_146.0.36.23:7307+2_86', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇩🇪+DE_05+@WangCai_1', server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'goatvpn24_88', server: 62.216.85.25, port: 16823, type: vmess, uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: 'goatvpn5_89', server: 205.185.124.171, port: 16823, type: vmess, uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: 'goatvpn4_90', server: 205.185.123.88, port: 16823, type: vmess, uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0, alterId: 1, cipher: auto, tls: false, network: tcp}
   - {name: 'timevpn-Kiev_91', server: ua.timevpn.com, port: 45647, type: ss, cipher: AES-256-CFB, password: yWsPcWx}
   - {name: 'n_146.0.36.23:7307+3_92', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇨🇦+Canada+44_93', server: 134.195.196.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: 'Norway+27_94', server: 46.29.218.6, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 'Norway+21_95', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'Norway+23_96', server: 46.29.218.6, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: 'n_46.29.218.6:2375+2_97', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦+Canada+77_98', server: 198.57.27.151, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'goatvpn3_99', server: 205.185.123.41, port: 16823, type: vmess, uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: '🇨🇦+Canada+43_100', server: 134.195.196.71, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '‌🇨🇦CA_04+@WangCai_1+3', server: 134.195.196.52, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
   - {name: 'n_146.0.36.23:7307_102', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'timevpn-Chicago_103', server: us.timevpn.com, port: 39593, type: ss, cipher: AES-256-CFB, password: zqpHhNT}
-  - {name: 'n_46.29.218.6:7306_104', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'Norway+26_105', server: 46.29.218.6, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'n_46.29.218.6:2376_106', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'n_46.29.218.6:8091_107', server: 46.29.218.6, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'n_46.29.218.6:8090_108', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 'n_46.29.218.6:2375_109', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'goatvpn6_110', server: 205.185.125.5, port: 16823, type: vmess, uuid: 7455b760-fc67-4898-ae69-afce6eb2a9c0, alterId: 1, cipher: auto, tls: false, network: tcp}
-  - {name: 'n_46.29.218.6:2376+2_111', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'Norway+22_112', server: 46.29.218.6, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {
-    name: timevpn-Moscow, 
-    server: ru.timevpn.com, 
-    port: 57888, 
-    type: ss, 
-    cipher: AES-256-CFB, 
-    password: fgRYwef
-    }
-    
+  - {name: 'timevpn-Moscow_56', server: ru.timevpn.com, port: 57888, type: ss, cipher: AES-256-CFB, password: fgRYwef}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - timevpn-Moscow
-      - 🇸🇬++SG_00+@WangCai_1+2
-      - 🇸🇬++SG_00+@WangCai_1
-      - CYL-科技（2021.11.30） 22_3
-      - CYL-科技（2021.11.30）+3_4
-      - CYL-科技（2021.11.30）+6_5
-      - CYL-科技（2021.11.30） 2_6
-      - 🇯🇵+Japan+8_7
-      - 🇯🇵+Japan+7_8
-      - 🇯🇵+Japan+10_9
-      - 🇯🇵+Japan+9_10
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - n__2
+      - time-vpn-de_3
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_4
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_5
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_6
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_7
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_8
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_9
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_10
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_11
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_12
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_13
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_14
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_15
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_16
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_17
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_18
+      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_19
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_20
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_21
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_22
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_23
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_24
+      - 🇩🇪+Germany+2+t.me/SurfShark_ALA_25
+      - 🇩🇪+Germany+5+t.me/SurfShark_ALA_26
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_27
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_28
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_29
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_30
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_31
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_32
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_33
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_34
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_35
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_36
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_37
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_38
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_39
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_40
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_41
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_42
       - n_118.107.244.110:3389_11
-      - 🇰🇷+Korea,+Republic+of+10_12
       - n_118.107.244.110:3389__13
-      - 🇰🇷+Korea,+Republic+of+15_14
-      - 🇰🇷+Korea,+Republic+of+33_15
-      - 🇰🇷+Korea,+Republic+of+25_16
-      - 🇰🇷+Korea,+Republic+of+49_17
-      - 🇰🇷+Korea,+Republic+of+50_18
-      - 🇰🇷+Korea,+Republic+of+22_19
-      - CYL-科技（2021.11.30） 7_20
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14645
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14640
-      - 🇩🇪+DE_07+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14642
-      - 🇩🇪+DE_01+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14639
-      - CYL-科技（2021.11.30）+21_27
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14653
-      - CYL-科技（2021.11.30）+23_29
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14657
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14643
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14654
-      - 🇰🇷+Korea,+Republic+of+13_33
-      - 🇰🇷+Korea,+Republic+of+36_34
-      - 🇰🇷+Korea,+Republic+of+34_35
-      - goatvpn22_36
-      - timevpn-Amsterdam_37
-      - goatvpn21_38
-      - n_134.195.196.52:2376+2_39
-      - n_134.195.196.3:8080+2_40
-      - 🇨🇦+Canada+72_41
-      - n_134.195.196.3:2375_42
-      - n_134.195.196.3:8091+2_43
-      - n_134.195.196.3:3306_44
-      - ‌🇨🇦CA_11+@WangCai_1+2
-      - 🇺🇸+United+States+45_46
-      - n_134.195.196.3:2376+2_47
-      - ‌🇨🇦CA_02+@WangCai_1
-      - n_134.195.196.3:7307_49
-      - ‌🇨🇦CA_03+@WangCai_1
-      - 🇨🇦+Canada+68_51
-      - 🇨🇦+Canada+69_52
-      - n_134.195.196.52:5004+2_53
-      - n_134.195.196.52:3389+2_54
-      - n_146.0.36.23:3306_55
       - Norway+25_56
-      - ‌🇨🇦CA_05+@WangCai_1
-      - n_134.195.196.3:3306+2_58
-      - n_146.0.36.23:8090_59
-      - n_134.195.196.3:2376_60
-      - n_134.195.196.3:3389_61
-      - ‌🇨🇦CA_08+@WangCai_1
-      - n_134.195.196.52:7306_63
       - ‌🇨🇦CA_10+@WangCai_1
-      - n_134.195.196.3:8091_65
-      - n_134.195.196.52:3389_66
-      - n_134.195.196.3:5003+2_67
-      - ‌🇨🇦CA_01+@WangCai_1
-      - n_134.195.196.52:3306_69
-      - ‌🇨🇦CA_09+@WangCai_1
-      - ‌🇨🇦CA_06+@WangCai_1
       - n_46.29.218.6:7307_72
-      - ‌🇨🇦CA_12+@WangCai_1
-      - n_134.195.196.3:8080_74
-      - 🇩🇪+DE_08+@WangCai_1
       - timevpn-Ru-vmess_76
-      - ‌🇨🇦CA_04+@WangCai_1
       - n_146.0.36.23:7306_78
-      - n_134.195.196.52:5004_79
-      - n_134.195.196.3:5003_80
-      - 🇩🇪+DE_02+@WangCai_1
-      - n_134.195.196.52:2376_82
-      - ‌🇨🇦CA_12+@WangCai_1+2
-      - 🇩🇪+Germany+5_84
       - 🇩🇪+DE_06+@WangCai_1
-      - n_146.0.36.23:7307+2_86
-      - 🇩🇪+DE_05+@WangCai_1
-      - goatvpn24_88
-      - goatvpn5_89
-      - goatvpn4_90
       - timevpn-Kiev_91
       - n_146.0.36.23:7307+3_92
-      - 🇨🇦+Canada+44_93
-      - Norway+27_94
       - Norway+21_95
-      - Norway+23_96
-      - n_46.29.218.6:2375+2_97
-      - 🇨🇦+Canada+77_98
-      - goatvpn3_99
-      - 🇨🇦+Canada+43_100
-      - ‌🇨🇦CA_04+@WangCai_1+3
       - n_146.0.36.23:7307_102
-      - timevpn-Chicago_103
-      - n_46.29.218.6:7306_104
-      - Norway+26_105
-      - n_46.29.218.6:2376_106
-      - n_46.29.218.6:8091_107
-      - n_46.29.218.6:8090_108
       - n_46.29.218.6:2375_109
-      - goatvpn6_110
-      - n_46.29.218.6:2376+2_111
-      - Norway+22_112
+      - timevpn-Moscow_56
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇬++SG_00+@WangCai_1+2
-      - 🇸🇬++SG_00+@WangCai_1
-      - CYL-科技（2021.11.30） 22_3
-      - CYL-科技（2021.11.30）+3_4
-      - CYL-科技（2021.11.30）+6_5
-      - CYL-科技（2021.11.30） 2_6
-      - 🇯🇵+Japan+8_7
-      - 🇯🇵+Japan+7_8
-      - 🇯🇵+Japan+10_9
-      - 🇯🇵+Japan+9_10
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - n__2
+      - time-vpn-de_3
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_4
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_5
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_6
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_7
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_8
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_9
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_10
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_11
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_12
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_13
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_14
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_15
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_16
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_17
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_18
+      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_19
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_20
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_21
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_22
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_23
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_24
+      - 🇩🇪+Germany+2+t.me/SurfShark_ALA_25
+      - 🇩🇪+Germany+5+t.me/SurfShark_ALA_26
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_27
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_28
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_29
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_30
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_31
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_32
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_33
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_34
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_35
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_36
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_37
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_38
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_39
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_40
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_41
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_42
       - n_118.107.244.110:3389_11
-      - 🇰🇷+Korea,+Republic+of+10_12
       - n_118.107.244.110:3389__13
-      - 🇰🇷+Korea,+Republic+of+15_14
-      - 🇰🇷+Korea,+Republic+of+33_15
-      - 🇰🇷+Korea,+Republic+of+25_16
-      - 🇰🇷+Korea,+Republic+of+49_17
-      - 🇰🇷+Korea,+Republic+of+50_18
-      - 🇰🇷+Korea,+Republic+of+22_19
-      - CYL-科技（2021.11.30） 7_20
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14645
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14640
-      - 🇩🇪+DE_07+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14642
-      - 🇩🇪+DE_01+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14639
-      - CYL-科技（2021.11.30）+21_27
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14653
-      - CYL-科技（2021.11.30）+23_29
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14657
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14643
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14654
-      - 🇰🇷+Korea,+Republic+of+13_33
-      - 🇰🇷+Korea,+Republic+of+36_34
-      - 🇰🇷+Korea,+Republic+of+34_35
-      - goatvpn22_36
-      - timevpn-Amsterdam_37
-      - goatvpn21_38
-      - n_134.195.196.52:2376+2_39
-      - n_134.195.196.3:8080+2_40
-      - 🇨🇦+Canada+72_41
-      - n_134.195.196.3:2375_42
-      - n_134.195.196.3:8091+2_43
-      - n_134.195.196.3:3306_44
-      - ‌🇨🇦CA_11+@WangCai_1+2
-      - 🇺🇸+United+States+45_46
-      - n_134.195.196.3:2376+2_47
-      - ‌🇨🇦CA_02+@WangCai_1
-      - n_134.195.196.3:7307_49
-      - ‌🇨🇦CA_03+@WangCai_1
-      - 🇨🇦+Canada+68_51
-      - 🇨🇦+Canada+69_52
-      - n_134.195.196.52:5004+2_53
-      - n_134.195.196.52:3389+2_54
-      - n_146.0.36.23:3306_55
       - Norway+25_56
-      - ‌🇨🇦CA_05+@WangCai_1
-      - n_134.195.196.3:3306+2_58
-      - n_146.0.36.23:8090_59
-      - n_134.195.196.3:2376_60
-      - n_134.195.196.3:3389_61
-      - ‌🇨🇦CA_08+@WangCai_1
-      - n_134.195.196.52:7306_63
       - ‌🇨🇦CA_10+@WangCai_1
-      - n_134.195.196.3:8091_65
-      - n_134.195.196.52:3389_66
-      - n_134.195.196.3:5003+2_67
-      - ‌🇨🇦CA_01+@WangCai_1
-      - n_134.195.196.52:3306_69
-      - ‌🇨🇦CA_09+@WangCai_1
-      - ‌🇨🇦CA_06+@WangCai_1
       - n_46.29.218.6:7307_72
-      - ‌🇨🇦CA_12+@WangCai_1
-      - n_134.195.196.3:8080_74
-      - 🇩🇪+DE_08+@WangCai_1
       - timevpn-Ru-vmess_76
-      - ‌🇨🇦CA_04+@WangCai_1
       - n_146.0.36.23:7306_78
-      - n_134.195.196.52:5004_79
-      - n_134.195.196.3:5003_80
-      - 🇩🇪+DE_02+@WangCai_1
-      - n_134.195.196.52:2376_82
-      - ‌🇨🇦CA_12+@WangCai_1+2
-      - 🇩🇪+Germany+5_84
       - 🇩🇪+DE_06+@WangCai_1
-      - n_146.0.36.23:7307+2_86
-      - 🇩🇪+DE_05+@WangCai_1
-      - goatvpn24_88
-      - goatvpn5_89
-      - goatvpn4_90
       - timevpn-Kiev_91
       - n_146.0.36.23:7307+3_92
-      - 🇨🇦+Canada+44_93
-      - Norway+27_94
       - Norway+21_95
-      - Norway+23_96
-      - n_46.29.218.6:2375+2_97
-      - 🇨🇦+Canada+77_98
-      - goatvpn3_99
-      - 🇨🇦+Canada+43_100
-      - ‌🇨🇦CA_04+@WangCai_1+3
       - n_146.0.36.23:7307_102
-      - timevpn-Chicago_103
-      - n_46.29.218.6:7306_104
-      - Norway+26_105
-      - n_46.29.218.6:2376_106
-      - n_46.29.218.6:8091_107
-      - n_46.29.218.6:8090_108
       - n_46.29.218.6:2375_109
-      - goatvpn6_110
-      - n_46.29.218.6:2376+2_111
-      - Norway+22_112
+      - timevpn-Moscow_56
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬++SG_00+@WangCai_1+2
-      - 🇸🇬++SG_00+@WangCai_1
-      - CYL-科技（2021.11.30） 22_3
-      - CYL-科技（2021.11.30）+3_4
-      - CYL-科技（2021.11.30）+6_5
-      - CYL-科技（2021.11.30） 2_6
-      - 🇯🇵+Japan+8_7
-      - 🇯🇵+Japan+7_8
-      - 🇯🇵+Japan+10_9
-      - 🇯🇵+Japan+9_10
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - n__2
+      - time-vpn-de_3
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_4
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_5
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_6
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_7
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_8
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_9
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_10
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_11
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_12
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_13
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_14
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_15
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_16
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_17
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_18
+      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_19
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_20
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_21
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_22
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_23
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_24
+      - 🇩🇪+Germany+2+t.me/SurfShark_ALA_25
+      - 🇩🇪+Germany+5+t.me/SurfShark_ALA_26
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_27
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_28
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_29
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_30
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_31
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_32
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_33
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_34
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_35
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_36
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_37
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_38
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_39
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_40
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_41
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_42
       - n_118.107.244.110:3389_11
-      - 🇰🇷+Korea,+Republic+of+10_12
       - n_118.107.244.110:3389__13
-      - 🇰🇷+Korea,+Republic+of+15_14
-      - 🇰🇷+Korea,+Republic+of+33_15
-      - 🇰🇷+Korea,+Republic+of+25_16
-      - 🇰🇷+Korea,+Republic+of+49_17
-      - 🇰🇷+Korea,+Republic+of+50_18
-      - 🇰🇷+Korea,+Republic+of+22_19
-      - CYL-科技（2021.11.30） 7_20
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14645
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14640
-      - 🇩🇪+DE_07+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14642
-      - 🇩🇪+DE_01+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14639
-      - CYL-科技（2021.11.30）+21_27
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14653
-      - CYL-科技（2021.11.30）+23_29
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14657
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14643
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14654
-      - 🇰🇷+Korea,+Republic+of+13_33
-      - 🇰🇷+Korea,+Republic+of+36_34
-      - 🇰🇷+Korea,+Republic+of+34_35
-      - goatvpn22_36
-      - timevpn-Amsterdam_37
-      - goatvpn21_38
-      - n_134.195.196.52:2376+2_39
-      - n_134.195.196.3:8080+2_40
-      - 🇨🇦+Canada+72_41
-      - n_134.195.196.3:2375_42
-      - n_134.195.196.3:8091+2_43
-      - n_134.195.196.3:3306_44
-      - ‌🇨🇦CA_11+@WangCai_1+2
-      - 🇺🇸+United+States+45_46
-      - n_134.195.196.3:2376+2_47
-      - ‌🇨🇦CA_02+@WangCai_1
-      - n_134.195.196.3:7307_49
-      - ‌🇨🇦CA_03+@WangCai_1
-      - 🇨🇦+Canada+68_51
-      - 🇨🇦+Canada+69_52
-      - n_134.195.196.52:5004+2_53
-      - n_134.195.196.52:3389+2_54
-      - n_146.0.36.23:3306_55
       - Norway+25_56
-      - ‌🇨🇦CA_05+@WangCai_1
-      - n_134.195.196.3:3306+2_58
-      - n_146.0.36.23:8090_59
-      - n_134.195.196.3:2376_60
-      - n_134.195.196.3:3389_61
-      - ‌🇨🇦CA_08+@WangCai_1
-      - n_134.195.196.52:7306_63
       - ‌🇨🇦CA_10+@WangCai_1
-      - n_134.195.196.3:8091_65
-      - n_134.195.196.52:3389_66
-      - n_134.195.196.3:5003+2_67
-      - ‌🇨🇦CA_01+@WangCai_1
-      - n_134.195.196.52:3306_69
-      - ‌🇨🇦CA_09+@WangCai_1
-      - ‌🇨🇦CA_06+@WangCai_1
       - n_46.29.218.6:7307_72
-      - ‌🇨🇦CA_12+@WangCai_1
-      - n_134.195.196.3:8080_74
-      - 🇩🇪+DE_08+@WangCai_1
       - timevpn-Ru-vmess_76
-      - ‌🇨🇦CA_04+@WangCai_1
       - n_146.0.36.23:7306_78
-      - n_134.195.196.52:5004_79
-      - n_134.195.196.3:5003_80
-      - 🇩🇪+DE_02+@WangCai_1
-      - n_134.195.196.52:2376_82
-      - ‌🇨🇦CA_12+@WangCai_1+2
-      - 🇩🇪+Germany+5_84
       - 🇩🇪+DE_06+@WangCai_1
-      - n_146.0.36.23:7307+2_86
-      - 🇩🇪+DE_05+@WangCai_1
-      - goatvpn24_88
-      - goatvpn5_89
-      - goatvpn4_90
       - timevpn-Kiev_91
       - n_146.0.36.23:7307+3_92
-      - 🇨🇦+Canada+44_93
-      - Norway+27_94
       - Norway+21_95
-      - Norway+23_96
-      - n_46.29.218.6:2375+2_97
-      - 🇨🇦+Canada+77_98
-      - goatvpn3_99
-      - 🇨🇦+Canada+43_100
-      - ‌🇨🇦CA_04+@WangCai_1+3
       - n_146.0.36.23:7307_102
-      - timevpn-Chicago_103
-      - n_46.29.218.6:7306_104
-      - Norway+26_105
-      - n_46.29.218.6:2376_106
-      - n_46.29.218.6:8091_107
-      - n_46.29.218.6:8090_108
       - n_46.29.218.6:2375_109
-      - goatvpn6_110
-      - n_46.29.218.6:2376+2_111
-      - Norway+22_112
+      - timevpn-Moscow_56
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬++SG_00+@WangCai_1+2
-      - 🇸🇬++SG_00+@WangCai_1
-      - CYL-科技（2021.11.30） 22_3
-      - CYL-科技（2021.11.30）+3_4
-      - CYL-科技（2021.11.30）+6_5
-      - CYL-科技（2021.11.30） 2_6
-      - 🇯🇵+Japan+8_7
-      - 🇯🇵+Japan+7_8
-      - 🇯🇵+Japan+10_9
-      - 🇯🇵+Japan+9_10
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - n__2
+      - time-vpn-de_3
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_4
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_5
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_6
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_7
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_8
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_9
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_10
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_11
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_12
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_13
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_14
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_15
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_16
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_17
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_18
+      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_19
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_20
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_21
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_22
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_23
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_24
+      - 🇩🇪+Germany+2+t.me/SurfShark_ALA_25
+      - 🇩🇪+Germany+5+t.me/SurfShark_ALA_26
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_27
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_28
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_29
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_30
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_31
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_32
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_33
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_34
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_35
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_36
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_37
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_38
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_39
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_40
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_41
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_42
       - n_118.107.244.110:3389_11
-      - 🇰🇷+Korea,+Republic+of+10_12
       - n_118.107.244.110:3389__13
-      - 🇰🇷+Korea,+Republic+of+15_14
-      - 🇰🇷+Korea,+Republic+of+33_15
-      - 🇰🇷+Korea,+Republic+of+25_16
-      - 🇰🇷+Korea,+Republic+of+49_17
-      - 🇰🇷+Korea,+Republic+of+50_18
-      - 🇰🇷+Korea,+Republic+of+22_19
-      - CYL-科技（2021.11.30） 7_20
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14645
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14640
-      - 🇩🇪+DE_07+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14642
-      - 🇩🇪+DE_01+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14639
-      - CYL-科技（2021.11.30）+21_27
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14653
-      - CYL-科技（2021.11.30）+23_29
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14657
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14643
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14654
-      - 🇰🇷+Korea,+Republic+of+13_33
-      - 🇰🇷+Korea,+Republic+of+36_34
-      - 🇰🇷+Korea,+Republic+of+34_35
-      - goatvpn22_36
-      - timevpn-Amsterdam_37
-      - goatvpn21_38
-      - n_134.195.196.52:2376+2_39
-      - n_134.195.196.3:8080+2_40
-      - 🇨🇦+Canada+72_41
-      - n_134.195.196.3:2375_42
-      - n_134.195.196.3:8091+2_43
-      - n_134.195.196.3:3306_44
-      - ‌🇨🇦CA_11+@WangCai_1+2
-      - 🇺🇸+United+States+45_46
-      - n_134.195.196.3:2376+2_47
-      - ‌🇨🇦CA_02+@WangCai_1
-      - n_134.195.196.3:7307_49
-      - ‌🇨🇦CA_03+@WangCai_1
-      - 🇨🇦+Canada+68_51
-      - 🇨🇦+Canada+69_52
-      - n_134.195.196.52:5004+2_53
-      - n_134.195.196.52:3389+2_54
-      - n_146.0.36.23:3306_55
       - Norway+25_56
-      - ‌🇨🇦CA_05+@WangCai_1
-      - n_134.195.196.3:3306+2_58
-      - n_146.0.36.23:8090_59
-      - n_134.195.196.3:2376_60
-      - n_134.195.196.3:3389_61
-      - ‌🇨🇦CA_08+@WangCai_1
-      - n_134.195.196.52:7306_63
       - ‌🇨🇦CA_10+@WangCai_1
-      - n_134.195.196.3:8091_65
-      - n_134.195.196.52:3389_66
-      - n_134.195.196.3:5003+2_67
-      - ‌🇨🇦CA_01+@WangCai_1
-      - n_134.195.196.52:3306_69
-      - ‌🇨🇦CA_09+@WangCai_1
-      - ‌🇨🇦CA_06+@WangCai_1
       - n_46.29.218.6:7307_72
-      - ‌🇨🇦CA_12+@WangCai_1
-      - n_134.195.196.3:8080_74
-      - 🇩🇪+DE_08+@WangCai_1
       - timevpn-Ru-vmess_76
-      - ‌🇨🇦CA_04+@WangCai_1
       - n_146.0.36.23:7306_78
-      - n_134.195.196.52:5004_79
-      - n_134.195.196.3:5003_80
-      - 🇩🇪+DE_02+@WangCai_1
-      - n_134.195.196.52:2376_82
-      - ‌🇨🇦CA_12+@WangCai_1+2
-      - 🇩🇪+Germany+5_84
       - 🇩🇪+DE_06+@WangCai_1
-      - n_146.0.36.23:7307+2_86
-      - 🇩🇪+DE_05+@WangCai_1
-      - goatvpn24_88
-      - goatvpn5_89
-      - goatvpn4_90
       - timevpn-Kiev_91
       - n_146.0.36.23:7307+3_92
-      - 🇨🇦+Canada+44_93
-      - Norway+27_94
       - Norway+21_95
-      - Norway+23_96
-      - n_46.29.218.6:2375+2_97
-      - 🇨🇦+Canada+77_98
-      - goatvpn3_99
-      - 🇨🇦+Canada+43_100
-      - ‌🇨🇦CA_04+@WangCai_1+3
       - n_146.0.36.23:7307_102
-      - timevpn-Chicago_103
-      - n_46.29.218.6:7306_104
-      - Norway+26_105
-      - n_46.29.218.6:2376_106
-      - n_46.29.218.6:8091_107
-      - n_46.29.218.6:8090_108
       - n_46.29.218.6:2375_109
-      - goatvpn6_110
-      - n_46.29.218.6:2376+2_111
-      - Norway+22_112
+      - timevpn-Moscow_56
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇬++SG_00+@WangCai_1+2
-      - 🇸🇬++SG_00+@WangCai_1
-      - CYL-科技（2021.11.30） 22_3
-      - CYL-科技（2021.11.30）+3_4
-      - CYL-科技（2021.11.30）+6_5
-      - CYL-科技（2021.11.30） 2_6
-      - 🇯🇵+Japan+8_7
-      - 🇯🇵+Japan+7_8
-      - 🇯🇵+Japan+10_9
-      - 🇯🇵+Japan+9_10
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - n__2
+      - time-vpn-de_3
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_4
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_5
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_6
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_7
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_8
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_9
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_10
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_11
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_12
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_13
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_14
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_15
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_16
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_17
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_18
+      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_19
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_20
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_21
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_22
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_23
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_24
+      - 🇩🇪+Germany+2+t.me/SurfShark_ALA_25
+      - 🇩🇪+Germany+5+t.me/SurfShark_ALA_26
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_27
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_28
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_29
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_30
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_31
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_32
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_33
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_34
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_35
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_36
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_37
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_38
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_39
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_40
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_41
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_42
       - n_118.107.244.110:3389_11
-      - 🇰🇷+Korea,+Republic+of+10_12
       - n_118.107.244.110:3389__13
-      - 🇰🇷+Korea,+Republic+of+15_14
-      - 🇰🇷+Korea,+Republic+of+33_15
-      - 🇰🇷+Korea,+Republic+of+25_16
-      - 🇰🇷+Korea,+Republic+of+49_17
-      - 🇰🇷+Korea,+Republic+of+50_18
-      - 🇰🇷+Korea,+Republic+of+22_19
-      - CYL-科技（2021.11.30） 7_20
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14645
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14640
-      - 🇩🇪+DE_07+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14642
-      - 🇩🇪+DE_01+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14639
-      - CYL-科技（2021.11.30）+21_27
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14653
-      - CYL-科技（2021.11.30）+23_29
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14657
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14643
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14654
-      - 🇰🇷+Korea,+Republic+of+13_33
-      - 🇰🇷+Korea,+Republic+of+36_34
-      - 🇰🇷+Korea,+Republic+of+34_35
-      - goatvpn22_36
-      - timevpn-Amsterdam_37
-      - goatvpn21_38
-      - n_134.195.196.52:2376+2_39
-      - n_134.195.196.3:8080+2_40
-      - 🇨🇦+Canada+72_41
-      - n_134.195.196.3:2375_42
-      - n_134.195.196.3:8091+2_43
-      - n_134.195.196.3:3306_44
-      - ‌🇨🇦CA_11+@WangCai_1+2
-      - 🇺🇸+United+States+45_46
-      - n_134.195.196.3:2376+2_47
-      - ‌🇨🇦CA_02+@WangCai_1
-      - n_134.195.196.3:7307_49
-      - ‌🇨🇦CA_03+@WangCai_1
-      - 🇨🇦+Canada+68_51
-      - 🇨🇦+Canada+69_52
-      - n_134.195.196.52:5004+2_53
-      - n_134.195.196.52:3389+2_54
-      - n_146.0.36.23:3306_55
       - Norway+25_56
-      - ‌🇨🇦CA_05+@WangCai_1
-      - n_134.195.196.3:3306+2_58
-      - n_146.0.36.23:8090_59
-      - n_134.195.196.3:2376_60
-      - n_134.195.196.3:3389_61
-      - ‌🇨🇦CA_08+@WangCai_1
-      - n_134.195.196.52:7306_63
       - ‌🇨🇦CA_10+@WangCai_1
-      - n_134.195.196.3:8091_65
-      - n_134.195.196.52:3389_66
-      - n_134.195.196.3:5003+2_67
-      - ‌🇨🇦CA_01+@WangCai_1
-      - n_134.195.196.52:3306_69
-      - ‌🇨🇦CA_09+@WangCai_1
-      - ‌🇨🇦CA_06+@WangCai_1
       - n_46.29.218.6:7307_72
-      - ‌🇨🇦CA_12+@WangCai_1
-      - n_134.195.196.3:8080_74
-      - 🇩🇪+DE_08+@WangCai_1
       - timevpn-Ru-vmess_76
-      - ‌🇨🇦CA_04+@WangCai_1
       - n_146.0.36.23:7306_78
-      - n_134.195.196.52:5004_79
-      - n_134.195.196.3:5003_80
-      - 🇩🇪+DE_02+@WangCai_1
-      - n_134.195.196.52:2376_82
-      - ‌🇨🇦CA_12+@WangCai_1+2
-      - 🇩🇪+Germany+5_84
       - 🇩🇪+DE_06+@WangCai_1
-      - n_146.0.36.23:7307+2_86
-      - 🇩🇪+DE_05+@WangCai_1
-      - goatvpn24_88
-      - goatvpn5_89
-      - goatvpn4_90
       - timevpn-Kiev_91
       - n_146.0.36.23:7307+3_92
-      - 🇨🇦+Canada+44_93
-      - Norway+27_94
       - Norway+21_95
-      - Norway+23_96
-      - n_46.29.218.6:2375+2_97
-      - 🇨🇦+Canada+77_98
-      - goatvpn3_99
-      - 🇨🇦+Canada+43_100
-      - ‌🇨🇦CA_04+@WangCai_1+3
       - n_146.0.36.23:7307_102
-      - timevpn-Chicago_103
-      - n_46.29.218.6:7306_104
-      - Norway+26_105
-      - n_46.29.218.6:2376_106
-      - n_46.29.218.6:8091_107
-      - n_46.29.218.6:8090_108
       - n_46.29.218.6:2375_109
-      - goatvpn6_110
-      - n_46.29.218.6:2376+2_111
-      - Norway+22_112
+      - timevpn-Moscow_56
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇬++SG_00+@WangCai_1+2
-      - 🇸🇬++SG_00+@WangCai_1
-      - CYL-科技（2021.11.30） 22_3
-      - CYL-科技（2021.11.30）+3_4
-      - CYL-科技（2021.11.30）+6_5
-      - CYL-科技（2021.11.30） 2_6
-      - 🇯🇵+Japan+8_7
-      - 🇯🇵+Japan+7_8
-      - 🇯🇵+Japan+10_9
-      - 🇯🇵+Japan+9_10
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - n__2
+      - time-vpn-de_3
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_4
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_5
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_6
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_7
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_8
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_9
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_10
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_11
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_12
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_13
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_14
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_15
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_16
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_17
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_18
+      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_19
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_20
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_21
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_22
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_23
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_24
+      - 🇩🇪+Germany+2+t.me/SurfShark_ALA_25
+      - 🇩🇪+Germany+5+t.me/SurfShark_ALA_26
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_27
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_28
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_29
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_30
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_31
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_32
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_33
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_34
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_35
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_36
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_37
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_38
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_39
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_40
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_41
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_42
       - n_118.107.244.110:3389_11
-      - 🇰🇷+Korea,+Republic+of+10_12
       - n_118.107.244.110:3389__13
-      - 🇰🇷+Korea,+Republic+of+15_14
-      - 🇰🇷+Korea,+Republic+of+33_15
-      - 🇰🇷+Korea,+Republic+of+25_16
-      - 🇰🇷+Korea,+Republic+of+49_17
-      - 🇰🇷+Korea,+Republic+of+50_18
-      - 🇰🇷+Korea,+Republic+of+22_19
-      - CYL-科技（2021.11.30） 7_20
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14645
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14640
-      - 🇩🇪+DE_07+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14642
-      - 🇩🇪+DE_01+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14639
-      - CYL-科技（2021.11.30）+21_27
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14653
-      - CYL-科技（2021.11.30）+23_29
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14657
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14643
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14654
-      - 🇰🇷+Korea,+Republic+of+13_33
-      - 🇰🇷+Korea,+Republic+of+36_34
-      - 🇰🇷+Korea,+Republic+of+34_35
-      - goatvpn22_36
-      - timevpn-Amsterdam_37
-      - goatvpn21_38
-      - n_134.195.196.52:2376+2_39
-      - n_134.195.196.3:8080+2_40
-      - 🇨🇦+Canada+72_41
-      - n_134.195.196.3:2375_42
-      - n_134.195.196.3:8091+2_43
-      - n_134.195.196.3:3306_44
-      - ‌🇨🇦CA_11+@WangCai_1+2
-      - 🇺🇸+United+States+45_46
-      - n_134.195.196.3:2376+2_47
-      - ‌🇨🇦CA_02+@WangCai_1
-      - n_134.195.196.3:7307_49
-      - ‌🇨🇦CA_03+@WangCai_1
-      - 🇨🇦+Canada+68_51
-      - 🇨🇦+Canada+69_52
-      - n_134.195.196.52:5004+2_53
-      - n_134.195.196.52:3389+2_54
-      - n_146.0.36.23:3306_55
       - Norway+25_56
-      - ‌🇨🇦CA_05+@WangCai_1
-      - n_134.195.196.3:3306+2_58
-      - n_146.0.36.23:8090_59
-      - n_134.195.196.3:2376_60
-      - n_134.195.196.3:3389_61
-      - ‌🇨🇦CA_08+@WangCai_1
-      - n_134.195.196.52:7306_63
       - ‌🇨🇦CA_10+@WangCai_1
-      - n_134.195.196.3:8091_65
-      - n_134.195.196.52:3389_66
-      - n_134.195.196.3:5003+2_67
-      - ‌🇨🇦CA_01+@WangCai_1
-      - n_134.195.196.52:3306_69
-      - ‌🇨🇦CA_09+@WangCai_1
-      - ‌🇨🇦CA_06+@WangCai_1
       - n_46.29.218.6:7307_72
-      - ‌🇨🇦CA_12+@WangCai_1
-      - n_134.195.196.3:8080_74
-      - 🇩🇪+DE_08+@WangCai_1
       - timevpn-Ru-vmess_76
-      - ‌🇨🇦CA_04+@WangCai_1
       - n_146.0.36.23:7306_78
-      - n_134.195.196.52:5004_79
-      - n_134.195.196.3:5003_80
-      - 🇩🇪+DE_02+@WangCai_1
-      - n_134.195.196.52:2376_82
-      - ‌🇨🇦CA_12+@WangCai_1+2
-      - 🇩🇪+Germany+5_84
       - 🇩🇪+DE_06+@WangCai_1
-      - n_146.0.36.23:7307+2_86
-      - 🇩🇪+DE_05+@WangCai_1
-      - goatvpn24_88
-      - goatvpn5_89
-      - goatvpn4_90
       - timevpn-Kiev_91
       - n_146.0.36.23:7307+3_92
-      - 🇨🇦+Canada+44_93
-      - Norway+27_94
       - Norway+21_95
-      - Norway+23_96
-      - n_46.29.218.6:2375+2_97
-      - 🇨🇦+Canada+77_98
-      - goatvpn3_99
-      - 🇨🇦+Canada+43_100
-      - ‌🇨🇦CA_04+@WangCai_1+3
       - n_146.0.36.23:7307_102
-      - timevpn-Chicago_103
-      - n_46.29.218.6:7306_104
-      - Norway+26_105
-      - n_46.29.218.6:2376_106
-      - n_46.29.218.6:8091_107
-      - n_46.29.218.6:8090_108
       - n_46.29.218.6:2375_109
-      - goatvpn6_110
-      - n_46.29.218.6:2376+2_111
-      - Norway+22_112
+      - timevpn-Moscow_56
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬++SG_00+@WangCai_1+2
-      - 🇸🇬++SG_00+@WangCai_1
-      - CYL-科技（2021.11.30） 22_3
-      - CYL-科技（2021.11.30）+3_4
-      - CYL-科技（2021.11.30）+6_5
-      - CYL-科技（2021.11.30） 2_6
-      - 🇯🇵+Japan+8_7
-      - 🇯🇵+Japan+7_8
-      - 🇯🇵+Japan+10_9
-      - 🇯🇵+Japan+9_10
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - n__2
+      - time-vpn-de_3
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_4
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_5
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_6
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_7
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_8
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_9
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_10
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_11
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_12
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_13
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_14
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_15
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_16
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_17
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_18
+      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_19
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_20
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_21
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_22
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_23
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_24
+      - 🇩🇪+Germany+2+t.me/SurfShark_ALA_25
+      - 🇩🇪+Germany+5+t.me/SurfShark_ALA_26
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_27
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_28
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_29
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_30
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_31
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_32
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_33
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_34
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_35
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_36
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_37
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_38
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_39
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_40
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_41
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_42
       - n_118.107.244.110:3389_11
-      - 🇰🇷+Korea,+Republic+of+10_12
       - n_118.107.244.110:3389__13
-      - 🇰🇷+Korea,+Republic+of+15_14
-      - 🇰🇷+Korea,+Republic+of+33_15
-      - 🇰🇷+Korea,+Republic+of+25_16
-      - 🇰🇷+Korea,+Republic+of+49_17
-      - 🇰🇷+Korea,+Republic+of+50_18
-      - 🇰🇷+Korea,+Republic+of+22_19
-      - CYL-科技（2021.11.30） 7_20
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14645
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14640
-      - 🇩🇪+DE_07+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14642
-      - 🇩🇪+DE_01+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14639
-      - CYL-科技（2021.11.30）+21_27
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14653
-      - CYL-科技（2021.11.30）+23_29
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14657
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14643
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14654
-      - 🇰🇷+Korea,+Republic+of+13_33
-      - 🇰🇷+Korea,+Republic+of+36_34
-      - 🇰🇷+Korea,+Republic+of+34_35
-      - goatvpn22_36
-      - timevpn-Amsterdam_37
-      - goatvpn21_38
-      - n_134.195.196.52:2376+2_39
-      - n_134.195.196.3:8080+2_40
-      - 🇨🇦+Canada+72_41
-      - n_134.195.196.3:2375_42
-      - n_134.195.196.3:8091+2_43
-      - n_134.195.196.3:3306_44
-      - ‌🇨🇦CA_11+@WangCai_1+2
-      - 🇺🇸+United+States+45_46
-      - n_134.195.196.3:2376+2_47
-      - ‌🇨🇦CA_02+@WangCai_1
-      - n_134.195.196.3:7307_49
-      - ‌🇨🇦CA_03+@WangCai_1
-      - 🇨🇦+Canada+68_51
-      - 🇨🇦+Canada+69_52
-      - n_134.195.196.52:5004+2_53
-      - n_134.195.196.52:3389+2_54
-      - n_146.0.36.23:3306_55
       - Norway+25_56
-      - ‌🇨🇦CA_05+@WangCai_1
-      - n_134.195.196.3:3306+2_58
-      - n_146.0.36.23:8090_59
-      - n_134.195.196.3:2376_60
-      - n_134.195.196.3:3389_61
-      - ‌🇨🇦CA_08+@WangCai_1
-      - n_134.195.196.52:7306_63
       - ‌🇨🇦CA_10+@WangCai_1
-      - n_134.195.196.3:8091_65
-      - n_134.195.196.52:3389_66
-      - n_134.195.196.3:5003+2_67
-      - ‌🇨🇦CA_01+@WangCai_1
-      - n_134.195.196.52:3306_69
-      - ‌🇨🇦CA_09+@WangCai_1
-      - ‌🇨🇦CA_06+@WangCai_1
       - n_46.29.218.6:7307_72
-      - ‌🇨🇦CA_12+@WangCai_1
-      - n_134.195.196.3:8080_74
-      - 🇩🇪+DE_08+@WangCai_1
       - timevpn-Ru-vmess_76
-      - ‌🇨🇦CA_04+@WangCai_1
       - n_146.0.36.23:7306_78
-      - n_134.195.196.52:5004_79
-      - n_134.195.196.3:5003_80
-      - 🇩🇪+DE_02+@WangCai_1
-      - n_134.195.196.52:2376_82
-      - ‌🇨🇦CA_12+@WangCai_1+2
-      - 🇩🇪+Germany+5_84
       - 🇩🇪+DE_06+@WangCai_1
-      - n_146.0.36.23:7307+2_86
-      - 🇩🇪+DE_05+@WangCai_1
-      - goatvpn24_88
-      - goatvpn5_89
-      - goatvpn4_90
       - timevpn-Kiev_91
       - n_146.0.36.23:7307+3_92
-      - 🇨🇦+Canada+44_93
-      - Norway+27_94
       - Norway+21_95
-      - Norway+23_96
-      - n_46.29.218.6:2375+2_97
-      - 🇨🇦+Canada+77_98
-      - goatvpn3_99
-      - 🇨🇦+Canada+43_100
-      - ‌🇨🇦CA_04+@WangCai_1+3
       - n_146.0.36.23:7307_102
-      - timevpn-Chicago_103
-      - n_46.29.218.6:7306_104
-      - Norway+26_105
-      - n_46.29.218.6:2376_106
-      - n_46.29.218.6:8091_107
-      - n_46.29.218.6:8090_108
       - n_46.29.218.6:2375_109
-      - goatvpn6_110
-      - n_46.29.218.6:2376+2_111
-      - Norway+22_112
+      - timevpn-Moscow_56
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -964,118 +506,62 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬++SG_00+@WangCai_1+2
-      - 🇸🇬++SG_00+@WangCai_1
-      - CYL-科技（2021.11.30） 22_3
-      - CYL-科技（2021.11.30）+3_4
-      - CYL-科技（2021.11.30）+6_5
-      - CYL-科技（2021.11.30） 2_6
-      - 🇯🇵+Japan+8_7
-      - 🇯🇵+Japan+7_8
-      - 🇯🇵+Japan+10_9
-      - 🇯🇵+Japan+9_10
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - n__2
+      - time-vpn-de_3
+      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_4
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_5
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_6
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_7
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_8
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_9
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_10
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_11
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_12
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_13
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_14
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_15
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_16
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_17
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_18
+      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_19
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_20
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_21
+      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_22
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_23
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_24
+      - 🇩🇪+Germany+2+t.me/SurfShark_ALA_25
+      - 🇩🇪+Germany+5+t.me/SurfShark_ALA_26
+      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_27
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_28
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_29
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_30
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_31
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_32
+      - 🇺🇦+Ukraine++1+t.me/SurfShark_ALA_33
+      - 🇹🇼+Taiwan+1+t.me/SurfShark_ALA_34
+      - 🇭🇰+Hong+Kong+1+t.me/SurfShark_ALA_35
+      - 🇭🇰+Hong+Kong+2+t.me/SurfShark_ALA_36
+      - 🇲🇽+Mexico+1+t.me/SurfShark_ALA_37
+      - 🇮🇳+India+1+t.me/SurfShark_ALA_38
+      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_39
+      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_40
+      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_41
+      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_42
       - n_118.107.244.110:3389_11
-      - 🇰🇷+Korea,+Republic+of+10_12
       - n_118.107.244.110:3389__13
-      - 🇰🇷+Korea,+Republic+of+15_14
-      - 🇰🇷+Korea,+Republic+of+33_15
-      - 🇰🇷+Korea,+Republic+of+25_16
-      - 🇰🇷+Korea,+Republic+of+49_17
-      - 🇰🇷+Korea,+Republic+of+50_18
-      - 🇰🇷+Korea,+Republic+of+22_19
-      - CYL-科技（2021.11.30） 7_20
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14645
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14640
-      - 🇩🇪+DE_07+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14642
-      - 🇩🇪+DE_01+@WangCai_1
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14639
-      - CYL-科技（2021.11.30）+21_27
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14653
-      - CYL-科技（2021.11.30）+23_29
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14657
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14643
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_14654
-      - 🇰🇷+Korea,+Republic+of+13_33
-      - 🇰🇷+Korea,+Republic+of+36_34
-      - 🇰🇷+Korea,+Republic+of+34_35
-      - goatvpn22_36
-      - timevpn-Amsterdam_37
-      - goatvpn21_38
-      - n_134.195.196.52:2376+2_39
-      - n_134.195.196.3:8080+2_40
-      - 🇨🇦+Canada+72_41
-      - n_134.195.196.3:2375_42
-      - n_134.195.196.3:8091+2_43
-      - n_134.195.196.3:3306_44
-      - ‌🇨🇦CA_11+@WangCai_1+2
-      - 🇺🇸+United+States+45_46
-      - n_134.195.196.3:2376+2_47
-      - ‌🇨🇦CA_02+@WangCai_1
-      - n_134.195.196.3:7307_49
-      - ‌🇨🇦CA_03+@WangCai_1
-      - 🇨🇦+Canada+68_51
-      - 🇨🇦+Canada+69_52
-      - n_134.195.196.52:5004+2_53
-      - n_134.195.196.52:3389+2_54
-      - n_146.0.36.23:3306_55
       - Norway+25_56
-      - ‌🇨🇦CA_05+@WangCai_1
-      - n_134.195.196.3:3306+2_58
-      - n_146.0.36.23:8090_59
-      - n_134.195.196.3:2376_60
-      - n_134.195.196.3:3389_61
-      - ‌🇨🇦CA_08+@WangCai_1
-      - n_134.195.196.52:7306_63
       - ‌🇨🇦CA_10+@WangCai_1
-      - n_134.195.196.3:8091_65
-      - n_134.195.196.52:3389_66
-      - n_134.195.196.3:5003+2_67
-      - ‌🇨🇦CA_01+@WangCai_1
-      - n_134.195.196.52:3306_69
-      - ‌🇨🇦CA_09+@WangCai_1
-      - ‌🇨🇦CA_06+@WangCai_1
       - n_46.29.218.6:7307_72
-      - ‌🇨🇦CA_12+@WangCai_1
-      - n_134.195.196.3:8080_74
-      - 🇩🇪+DE_08+@WangCai_1
       - timevpn-Ru-vmess_76
-      - ‌🇨🇦CA_04+@WangCai_1
       - n_146.0.36.23:7306_78
-      - n_134.195.196.52:5004_79
-      - n_134.195.196.3:5003_80
-      - 🇩🇪+DE_02+@WangCai_1
-      - n_134.195.196.52:2376_82
-      - ‌🇨🇦CA_12+@WangCai_1+2
-      - 🇩🇪+Germany+5_84
       - 🇩🇪+DE_06+@WangCai_1
-      - n_146.0.36.23:7307+2_86
-      - 🇩🇪+DE_05+@WangCai_1
-      - goatvpn24_88
-      - goatvpn5_89
-      - goatvpn4_90
       - timevpn-Kiev_91
       - n_146.0.36.23:7307+3_92
-      - 🇨🇦+Canada+44_93
-      - Norway+27_94
       - Norway+21_95
-      - Norway+23_96
-      - n_46.29.218.6:2375+2_97
-      - 🇨🇦+Canada+77_98
-      - goatvpn3_99
-      - 🇨🇦+Canada+43_100
-      - ‌🇨🇦CA_04+@WangCai_1+3
       - n_146.0.36.23:7307_102
-      - timevpn-Chicago_103
-      - n_46.29.218.6:7306_104
-      - Norway+26_105
-      - n_46.29.218.6:2376_106
-      - n_46.29.218.6:8091_107
-      - n_46.29.218.6:8090_108
       - n_46.29.218.6:2375_109
-      - goatvpn6_110
-      - n_46.29.218.6:2376+2_111
-      - Norway+22_112
+      - timevpn-Moscow_56
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
