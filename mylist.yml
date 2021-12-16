@@ -5,340 +5,124 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇸🇪+Sweden+2+t.me/SurfShark_ALA_1', server: 196.196.156.106, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'ShuttleVPN-us10_1', server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: '自建韩国域名走cdn_2', server: mianliu.luojishufa.com, port: 443, type: vmess, uuid: 2ccc1196-58af-11ec-9d00-02001700aa67, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /fDRoGxPB/}
-  - {name: '自建甲骨文美国_3', server: 152.70.125.229, port: 59003, type: vmess, uuid: 9fee7526-58d0-11ec-ad9a-020017018307, alterId: 0, cipher: auto, tls: false, network: kcp}
-  - {name: 'mvps2.luojishufa.com_vmess_ws_4', server: mvps2.luojishufa.com, port: 443, type: vmess, uuid: e3285cba-b46b-4580-a007-d50462fde2dd, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: "/scysvws?ed=2048", ws-headers: {Host: mvps2.luojishufa.com}}
-  - {name: 'n__5', server: 152.67.215.21, port: 54056, type: vmess, uuid: d85409fa-5a36-11ec-a8ff-02001700cc05, alterId: 0, cipher: auto, tls: false, network: kcp}
-  - {name: 'time-vpn-de_6', server: de.timevpn.com, port: 58915, type: ss, cipher: aes-256-cfb, password: aAwEeeG}
-  - {name: '🇸🇪+Sweden+2+t.me/SurfShark_ALA_7', server: 196.196.156.106, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_8', server: 69.39.239.72, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
-  - {name: '🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_9', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: '🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_10', server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
-  - {name: '🇩🇪+Germany+6+t.me/SurfShark_ALA_11', server: 37.1.192.129, port: 55605, type: ss, cipher: aes-256-cfb, password: ruEvBSp}
-  - {name: '🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_12', server: 69.39.239.72, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
-  - {name: '🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_13', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: '🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_14', server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
-  - {name: '🇮🇳+India+1+t.me/SurfShark_ALA_15', server: 169.38.107.52, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
-  - {name: '🇬🇷+Greece+1+t.me/SurfShark_ALA_16', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: '🇷🇴+Romania+1+t.me/SurfShark_ALA_17', server: 86.105.25.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
-  - {name: '🇳🇴+Norway+1+t.me/SurfShark_ALA_18', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_19', server: 69.39.239.72, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
-  - {name: '🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_20', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: '🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_21', server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
-  - {name: '🇩🇪+Germany+6+t.me/SurfShark_ALA_22', server: 37.1.192.129, port: 55605, type: ss, cipher: aes-256-cfb, password: ruEvBSp}
-  - {name: '🇮🇳+India+1+t.me/SurfShark_ALA_23', server: 169.38.107.52, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
-  - {name: '🇮🇳+India+1+t.me/SurfShark_ALA_24', server: 169.38.107.52, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
-  - {name: '🇬🇷+Greece+1+t.me/SurfShark_ALA_25', server: 185.51.134.210, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: mTrN2fMYeWJwrkWpTnL2}
-  - {name: '🇳🇴+Norway+1+t.me/SurfShark_ALA_26', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_27', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
-  - {name: '🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_28', server: 104.140.21.178, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 4kUSnsELPgwDFqkrnPqL}
-  - {name: 'n_118.107.244.110:3389__13', server: 118.107.244.110, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: 'Norway+25_56', server: 46.29.218.6, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '‌🇨🇦CA_10+@WangCai_1', server: 198.57.27.218, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: 'n_46.29.218.6:7307_72', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: 'timevpn-Ru-vmess_76', server: 37.252.1.197, port: 3000, type: vmess, uuid: 49671268-1e72-45dd-b17e-06272197b5f5, alterId: 4, cipher: auto, tls: false, network: tcp}
+  - {name: 'Mumbai+-+422_3', server: 172.105.52.97, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇫🇷France_4', server: 62.210.209.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: 'Sydney+-+2203_5', server: 172.105.188.172, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Mumbai+-+3039_6', server: 172.105.41.63, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 't.me/AzadNet_7', server: 192.46.210.73, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: 'ShuttleVPN-us24_8', server: 169.197.142.39, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'ShuttleVPN-jp2_9', server: 172.105.230.112, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 'timevpn-Kiev_91', server: ua.timevpn.com, port: 45647, type: ss, cipher: AES-256-CFB, password: yWsPcWx}
-  - {name: 'Norway+21_95', server: 46.29.218.6, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: 'n_46.29.218.6:2375_109', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'timevpn-Moscow_37', server: ru.timevpn.com, port: 57888, type: ss, cipher: AES-256-CFB, password: fgRYwef}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - ShuttleVPN-us10_1
       - 自建韩国域名走cdn_2
-      - 自建甲骨文美国_3
-      - mvps2.luojishufa.com_vmess_ws_4
-      - n__5
-      - time-vpn-de_6
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_7
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_8
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_9
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_10
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_11
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_12
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_13
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_14
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_15
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_16
-      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_17
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_18
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_19
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_20
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_21
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_22
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_23
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_24
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_25
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_26
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_27
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_28
-      - n_118.107.244.110:3389__13
-      - Norway+25_56
-      - ‌🇨🇦CA_10+@WangCai_1
-      - n_46.29.218.6:7307_72
-      - timevpn-Ru-vmess_76
+      - Mumbai+-+422_3
+      - 🇫🇷France_4
+      - Sydney+-+2203_5
+      - Mumbai+-+3039_6
+      - t.me/AzadNet_7
+      - ShuttleVPN-us24_8
+      - ShuttleVPN-jp2_9
       - timevpn-Kiev_91
-      - Norway+21_95
-      - n_46.29.218.6:2375_109
-      - timevpn-Moscow_37
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - ShuttleVPN-us10_1
       - 自建韩国域名走cdn_2
-      - 自建甲骨文美国_3
-      - mvps2.luojishufa.com_vmess_ws_4
-      - n__5
-      - time-vpn-de_6
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_7
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_8
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_9
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_10
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_11
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_12
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_13
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_14
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_15
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_16
-      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_17
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_18
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_19
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_20
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_21
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_22
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_23
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_24
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_25
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_26
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_27
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_28
-      - n_118.107.244.110:3389__13
-      - Norway+25_56
-      - ‌🇨🇦CA_10+@WangCai_1
-      - n_46.29.218.6:7307_72
-      - timevpn-Ru-vmess_76
+      - Mumbai+-+422_3
+      - 🇫🇷France_4
+      - Sydney+-+2203_5
+      - Mumbai+-+3039_6
+      - t.me/AzadNet_7
+      - ShuttleVPN-us24_8
+      - ShuttleVPN-jp2_9
       - timevpn-Kiev_91
-      - Norway+21_95
-      - n_46.29.218.6:2375_109
-      - timevpn-Moscow_37
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - ShuttleVPN-us10_1
       - 自建韩国域名走cdn_2
-      - 自建甲骨文美国_3
-      - mvps2.luojishufa.com_vmess_ws_4
-      - n__5
-      - time-vpn-de_6
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_7
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_8
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_9
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_10
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_11
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_12
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_13
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_14
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_15
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_16
-      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_17
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_18
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_19
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_20
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_21
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_22
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_23
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_24
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_25
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_26
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_27
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_28
-      - n_118.107.244.110:3389__13
-      - Norway+25_56
-      - ‌🇨🇦CA_10+@WangCai_1
-      - n_46.29.218.6:7307_72
-      - timevpn-Ru-vmess_76
+      - Mumbai+-+422_3
+      - 🇫🇷France_4
+      - Sydney+-+2203_5
+      - Mumbai+-+3039_6
+      - t.me/AzadNet_7
+      - ShuttleVPN-us24_8
+      - ShuttleVPN-jp2_9
       - timevpn-Kiev_91
-      - Norway+21_95
-      - n_46.29.218.6:2375_109
-      - timevpn-Moscow_37
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - ShuttleVPN-us10_1
       - 自建韩国域名走cdn_2
-      - 自建甲骨文美国_3
-      - mvps2.luojishufa.com_vmess_ws_4
-      - n__5
-      - time-vpn-de_6
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_7
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_8
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_9
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_10
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_11
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_12
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_13
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_14
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_15
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_16
-      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_17
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_18
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_19
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_20
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_21
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_22
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_23
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_24
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_25
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_26
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_27
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_28
-      - n_118.107.244.110:3389__13
-      - Norway+25_56
-      - ‌🇨🇦CA_10+@WangCai_1
-      - n_46.29.218.6:7307_72
-      - timevpn-Ru-vmess_76
+      - Mumbai+-+422_3
+      - 🇫🇷France_4
+      - Sydney+-+2203_5
+      - Mumbai+-+3039_6
+      - t.me/AzadNet_7
+      - ShuttleVPN-us24_8
+      - ShuttleVPN-jp2_9
       - timevpn-Kiev_91
-      - Norway+21_95
-      - n_46.29.218.6:2375_109
-      - timevpn-Moscow_37
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - ShuttleVPN-us10_1
       - 自建韩国域名走cdn_2
-      - 自建甲骨文美国_3
-      - mvps2.luojishufa.com_vmess_ws_4
-      - n__5
-      - time-vpn-de_6
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_7
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_8
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_9
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_10
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_11
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_12
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_13
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_14
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_15
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_16
-      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_17
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_18
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_19
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_20
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_21
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_22
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_23
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_24
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_25
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_26
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_27
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_28
-      - n_118.107.244.110:3389__13
-      - Norway+25_56
-      - ‌🇨🇦CA_10+@WangCai_1
-      - n_46.29.218.6:7307_72
-      - timevpn-Ru-vmess_76
+      - Mumbai+-+422_3
+      - 🇫🇷France_4
+      - Sydney+-+2203_5
+      - Mumbai+-+3039_6
+      - t.me/AzadNet_7
+      - ShuttleVPN-us24_8
+      - ShuttleVPN-jp2_9
       - timevpn-Kiev_91
-      - Norway+21_95
-      - n_46.29.218.6:2375_109
-      - timevpn-Moscow_37
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - ShuttleVPN-us10_1
       - 自建韩国域名走cdn_2
-      - 自建甲骨文美国_3
-      - mvps2.luojishufa.com_vmess_ws_4
-      - n__5
-      - time-vpn-de_6
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_7
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_8
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_9
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_10
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_11
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_12
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_13
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_14
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_15
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_16
-      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_17
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_18
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_19
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_20
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_21
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_22
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_23
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_24
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_25
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_26
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_27
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_28
-      - n_118.107.244.110:3389__13
-      - Norway+25_56
-      - ‌🇨🇦CA_10+@WangCai_1
-      - n_46.29.218.6:7307_72
-      - timevpn-Ru-vmess_76
+      - Mumbai+-+422_3
+      - 🇫🇷France_4
+      - Sydney+-+2203_5
+      - Mumbai+-+3039_6
+      - t.me/AzadNet_7
+      - ShuttleVPN-us24_8
+      - ShuttleVPN-jp2_9
       - timevpn-Kiev_91
-      - Norway+21_95
-      - n_46.29.218.6:2375_109
-      - timevpn-Moscow_37
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - ShuttleVPN-us10_1
       - 自建韩国域名走cdn_2
-      - 自建甲骨文美国_3
-      - mvps2.luojishufa.com_vmess_ws_4
-      - n__5
-      - time-vpn-de_6
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_7
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_8
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_9
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_10
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_11
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_12
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_13
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_14
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_15
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_16
-      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_17
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_18
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_19
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_20
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_21
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_22
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_23
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_24
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_25
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_26
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_27
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_28
-      - n_118.107.244.110:3389__13
-      - Norway+25_56
-      - ‌🇨🇦CA_10+@WangCai_1
-      - n_46.29.218.6:7307_72
-      - timevpn-Ru-vmess_76
+      - Mumbai+-+422_3
+      - 🇫🇷France_4
+      - Sydney+-+2203_5
+      - Mumbai+-+3039_6
+      - t.me/AzadNet_7
+      - ShuttleVPN-us24_8
+      - ShuttleVPN-jp2_9
       - timevpn-Kiev_91
-      - Norway+21_95
-      - n_46.29.218.6:2375_109
-      - timevpn-Moscow_37
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -354,43 +138,16 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_1
+      - ShuttleVPN-us10_1
       - 自建韩国域名走cdn_2
-      - 自建甲骨文美国_3
-      - mvps2.luojishufa.com_vmess_ws_4
-      - n__5
-      - time-vpn-de_6
-      - 🇸🇪+Sweden+2+t.me/SurfShark_ALA_7
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_8
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_9
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_10
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_11
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_12
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_13
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_14
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_15
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_16
-      - 🇷🇴+Romania+1+t.me/SurfShark_ALA_17
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_18
-      - 🇺🇸+USA.ArlingtonHeights+1+t.me/SurfShark_ALA_19
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_20
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_21
-      - 🇩🇪+Germany+6+t.me/SurfShark_ALA_22
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_23
-      - 🇮🇳+India+1+t.me/SurfShark_ALA_24
-      - 🇬🇷+Greece+1+t.me/SurfShark_ALA_25
-      - 🇳🇴+Norway+1+t.me/SurfShark_ALA_26
-      - 🇺🇸+USA.LosAngeles+1+t.me/SurfShark_ALA_27
-      - 🇺🇸+USA.Seattle+1+t.me/SurfShark_ALA_28
-      - n_118.107.244.110:3389__13
-      - Norway+25_56
-      - ‌🇨🇦CA_10+@WangCai_1
-      - n_46.29.218.6:7307_72
-      - timevpn-Ru-vmess_76
+      - Mumbai+-+422_3
+      - 🇫🇷France_4
+      - Sydney+-+2203_5
+      - Mumbai+-+3039_6
+      - t.me/AzadNet_7
+      - ShuttleVPN-us24_8
+      - ShuttleVPN-jp2_9
       - timevpn-Kiev_91
-      - Norway+21_95
-      - n_46.29.218.6:2375_109
-      - timevpn-Moscow_37
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
